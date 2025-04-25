@@ -1829,7 +1829,7 @@ input:not([type=range])::placeholder {
   height: clamp(216.645px, 33.8541666667vw, 650px);
   background-color: #fff;
   background: linear-gradient(90deg, #fff 85%, rgba(255, 255, 255, 0.5) 100%);
-  z-index: 1;
+  z-index: 2;
   opacity: 0;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
