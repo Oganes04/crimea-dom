@@ -190,7 +190,7 @@ body::-webkit-scrollbar-thumb {
 
 .button {
   font-size: var(--font-20);
-  font-weight: 600;
+  font-weight: 500;
   color: #003A70;
   background-color: #FFFFFF;
   padding: clamp(5.3328px, 0.8333333333vw, 16px) clamp(7.9992px, 1.25vw, 24px) clamp(5.3328px, 0.8333333333vw, 16px) clamp(7.9992px, 1.25vw, 24px);
@@ -228,7 +228,7 @@ body::-webkit-scrollbar-thumb {
 
 h2.section__header {
   font-size: clamp(13.332px, 2.0833333333vw, 40px);
-  font-weight: 700;
+  font-weight: 600;
   color: #3F3D4C;
   margin-bottom: clamp(15.9984px, 2.5vw, 48px);
   position: relative;
@@ -249,7 +249,7 @@ input:not([type=range]) {
   border: 1px solid #FFFFFF;
   font-size: var(--font-20);
   line-height: clamp(7.3326px, 1.1458333333vw, 22px);
-  font-weight: 600;
+  font-weight: 500;
   color: #FFFFFF;
   text-align: center;
 }
@@ -273,13 +273,21 @@ input:not([type=range])::placeholder {
   border-radius: clamp(3.333px, 0.5208333333vw, 10px);
   border: 1px solid #003A70;
   cursor: pointer;
+  height: clamp(18.6648px, 2.9166666667vw, 56px);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .select select {
   font-size: var(--font-20);
   color: #003A70;
   font-weight: 600;
-  width: clamp(81.6585px, 12.7604166667vw, 245px);
+  width: clamp(89.991px, 14.0625vw, 270px);
   display: inline-block;
   cursor: pointer;
 }
@@ -392,14 +400,14 @@ input:not([type=range])::placeholder {
   justify-content: center;
   color: #3F3D4C;
   font-size: var(--font-16);
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   animation: roundBtnText 11.6s infinite linear;
 }
 
 .round-btn p strong {
   font-size: var(--font-32);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @keyframes roundBtn {
@@ -914,7 +922,7 @@ input:not([type=range])::placeholder {
 
 .footer nav h2 {
   font-size: var(--font-24);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(7.9992px, 1.25vw, 24px);
 }
 
@@ -926,7 +934,7 @@ input:not([type=range])::placeholder {
 
 .footer nav ul a {
   font-size: var(--font-20);
-  font-weight: 500;
+  font-weight: 400;
   color: #FFFFFF;
   position: relative;
 }
@@ -958,7 +966,7 @@ input:not([type=range])::placeholder {
 
 .footer__contacts h2 {
   font-size: var(--font-24);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(7.9992px, 1.25vw, 24px);
 }
 
@@ -979,7 +987,7 @@ input:not([type=range])::placeholder {
 
 .footer__contacts strong {
   font-size: var(--font-20);
-  font-weight: 500;
+  font-weight: 400;
   line-height: 130%;
   display: inline-block;
 }
@@ -1069,7 +1077,7 @@ input:not([type=range])::placeholder {
 
 .offer__inner ul li p {
   font-size: var(--font-20);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .offer__btns {
@@ -1097,12 +1105,12 @@ input:not([type=range])::placeholder {
 .offer__partner h2 {
   font-size: var(--font-32);
   margin-bottom: clamp(7.9992px, 1.25vw, 24px);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .offer__partner p {
   font-size: var(--font-24);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
 }
 
@@ -1121,7 +1129,7 @@ input:not([type=range])::placeholder {
 .offer__partner span {
   color: #21A038;
   font-size: var(--font-16);
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -1185,7 +1193,7 @@ input:not([type=range])::placeholder {
 
 .catalog__item h3 {
   font-size: var(--font-24);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
 }
 
@@ -1207,7 +1215,7 @@ input:not([type=range])::placeholder {
 .catalog__item strong {
   font-size: var(--font-40);
   color: #003A70;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .catalog__form {
@@ -1240,7 +1248,7 @@ input:not([type=range])::placeholder {
 
 .catalog__form h2 {
   font-size: var(--font-64);
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: clamp(15.9984px, 2.5vw, 48px);
   position: relative;
   z-index: 1;
@@ -1360,7 +1368,6 @@ input:not([type=range])::placeholder {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  cursor: pointer;
   z-index: 10;
 }
 
@@ -1403,13 +1410,13 @@ input:not([type=range])::placeholder {
 
 .advantages__block-dot-info .flex strong {
   font-size: var(--font-12);
-  font-weight: 700;
+  font-weight: 600;
   color: #3F3D4C;
 }
 
 .advantages__block-dot-info .flex p {
   font-size: var(--font-12);
-  font-weight: 500;
+  font-weight: 300;
   color: #3F3D4C;
 }
 
@@ -1431,7 +1438,7 @@ input:not([type=range])::placeholder {
 
 .advantages__block-text h3 {
   font-size: var(--font-32);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(13.332px, 2.0833333333vw, 40px);
 }
 
@@ -1467,7 +1474,7 @@ input:not([type=range])::placeholder {
 
 .form__mortgage h2 {
   font-size: var(--font-64);
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: clamp(7.9992px, 1.25vw, 24px);
 }
 
@@ -1486,7 +1493,7 @@ input:not([type=range])::placeholder {
   justify-content: start;
   gap: clamp(2.6664px, 0.4166666667vw, 8px);
   font-size: var(--font-20);
-  font-weight: 600;
+  font-weight: 500;
   width: fit-content;
 }
 
@@ -1546,12 +1553,12 @@ input:not([type=range])::placeholder {
 .form__mortgage-partner h2 {
   font-size: var(--font-32);
   margin-bottom: clamp(7.9992px, 1.25vw, 24px);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .form__mortgage-partner p {
   font-size: var(--font-24);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
 }
 
@@ -1570,7 +1577,7 @@ input:not([type=range])::placeholder {
 .form__mortgage-partner span {
   color: #21A038;
   font-size: var(--font-16);
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -1691,6 +1698,7 @@ input:not([type=range])::placeholder {
 }
 
 .projects .swiper-slide .round-btn p strong {
+  font-weight: 600;
   font-size: var(--font-18);
 }
 
@@ -1740,7 +1748,7 @@ input:not([type=range])::placeholder {
 
 .form__excursion-info strong {
   font-size: var(--font-20);
-  font-weight: 600;
+  font-weight: 500;
   display: block;
 }
 
@@ -1767,7 +1775,8 @@ input:not([type=range])::placeholder {
 .form__excursion-inner > .form__excursion-employee {
   width: clamp(216.9783px, 33.90625vw, 651px);
   height: clamp(157.6509px, 24.6354166667vw, 473px);
-  right: 0;
+  right: -30px;
+  right: clamp(-52px, -2.708vw, -17.33px);
   bottom: 0;
   left: auto;
   top: auto;
@@ -1777,14 +1786,14 @@ input:not([type=range])::placeholder {
 .form__excursion-inner h2 {
   position: relative;
   font-size: clamp(13.332px, 2.0833333333vw, 40px);
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
 }
 
 .form__excursion-inner > p {
   position: relative;
   font-size: var(--font-24);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(15.9984px, 2.5vw, 48px);
 }
 
@@ -1932,7 +1941,7 @@ input:not([type=range])::placeholder {
 
 .stepsSwiper .swiper-slide span {
   font-size: var(--font-40);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 130%;
   display: inline-block;
   padding: clamp(2.6664px, 0.4166666667vw, 8px) clamp(2.6664px, 0.4166666667vw, 8px) clamp(2.6664px, 0.4166666667vw, 8px) clamp(2.6664px, 0.4166666667vw, 8px);
@@ -1944,14 +1953,14 @@ input:not([type=range])::placeholder {
 .stepsSwiper .swiper-slide h3 {
   font-size: var(--font-32);
   line-height: 130%;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
 }
 
 .stepsSwiper .swiper-slide a {
   font-size: var(--font-32);
   line-height: 130%;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: clamp(7.9992px, 1.25vw, 24px);
   color: #FFFFFF;
   display: inline-block;
@@ -1960,7 +1969,7 @@ input:not([type=range])::placeholder {
 .stepsSwiper .swiper-slide p {
   font-size: var(--font-24);
   line-height: 130%;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .stepsSwiper .swiper-slide strong {
@@ -2043,7 +2052,7 @@ input:not([type=range])::placeholder {
 .form__price-inner h2 {
   position: relative;
   font-size: var(--font-40);
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
 }
 
@@ -2107,6 +2116,11 @@ input:not([type=range])::placeholder {
   margin-top: clamp(2.3331px, 0.3645833333vw, 7px);
 }
 
+.slider .row span {
+  font-size: var(--font-18);
+  font-weight: 500;
+}
+
 .slider .row .line {
   display: -webkit-box;
   display: -moz-box;
@@ -2134,7 +2148,7 @@ input:not([type=range])::placeholder {
 
 .slider .row .line strong {
   font-size: var(--font-24);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .slider .slider-wrapper {
@@ -2149,6 +2163,7 @@ input:not([type=range])::placeholder {
   width: calc(100% - 24px);
   height: 8px;
   background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.5);
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
@@ -2199,7 +2214,7 @@ input:not([type=range])::placeholder {
 
 .faq__info h2 {
   font-size: var(--font-40);
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: clamp(21.3312px, 3.3333333333vw, 64px);
 }
 
@@ -2233,7 +2248,7 @@ input:not([type=range])::placeholder {
 .faq ul li .faq__item-question h3 {
   font-size: var(--font-32);
   color: #003A70;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .faq ul li .faq__item-question svg {
@@ -2279,7 +2294,7 @@ input:not([type=range])::placeholder {
 
 .contacts__inner-form h3 {
   font-size: var(--font-24);
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: clamp(7.9992px, 1.25vw, 24px);
 }
 
@@ -2337,7 +2352,7 @@ input:not([type=range])::placeholder {
 }
 
 .contacts .row strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .contacts ul {
@@ -2399,8 +2414,12 @@ input:not([type=range])::placeholder {
     border-radius: clamp(5px, 1.5625vw, 10px);
   }
 
+  .select {
+    height: clamp(28px, 8.75vw, 56px);
+  }
+
   .select select {
-    width: clamp(122.5px, 38.28125vw, 245px);
+    width: clamp(135px, 42.1875vw, 270px);
   }
 
   .fakecheck {
