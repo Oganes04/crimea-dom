@@ -231,6 +231,14 @@ h2.section__header {
   font-weight: 700;
   color: #3F3D4C;
   margin-bottom: clamp(15.9984px, 2.5vw, 48px);
+  position: relative;
+}
+
+h2.section__header::before {
+  display: block;
+  content: "";
+  height: 100px;
+  margin: -100px 0 0;
 }
 
 /* ========================== Cтили для полей ввода ==================== */
