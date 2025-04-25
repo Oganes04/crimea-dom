@@ -227,7 +227,7 @@ body::-webkit-scrollbar-thumb {
 /* ========================== Cтили для заголовка секции ==================== */
 
 h2.section__header {
-  font-size: clamp(13.332px, 2.0833333333vw, 40px);
+  font-size: var(--font-40);
   font-weight: 600;
   color: #3F3D4C;
   margin-bottom: clamp(15.9984px, 2.5vw, 48px);
@@ -2390,1181 +2390,1666 @@ input:not([type=range])::placeholder {
 
 @media only screen and (max-width: 640px) {
   section {
-    margin-bottom: clamp(64px, 20vw, 128px);
+    margin-bottom: clamp(105.024px, 32.82vw, 210.048px);
   }
 
   .button {
-    padding: clamp(8px, 2.5vw, 16px) clamp(12px, 3.75vw, 24px) clamp(8px, 2.5vw, 16px) clamp(12px, 3.75vw, 24px);
+    padding: clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px) clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .button {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   h2.section__header {
-    font-size: clamp(20px, 6.25vw, 40px);
-  }
-
-  h2.section__header {
-    margin-bottom: clamp(24px, 7.5vw, 48px);
+    margin-bottom: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   input:not([type=range]) {
-    padding: clamp(8px, 2.5vw, 16px) clamp(12px, 3.75vw, 24px) clamp(8px, 2.5vw, 16px) clamp(12px, 3.75vw, 24px);
+    padding: clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px) clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   input:not([type=range]) {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   input:not([type=range]) {
-    line-height: clamp(11px, 3.4375vw, 22px);
+    line-height: clamp(18.051px, 5.6409375vw, 36.102px);
   }
 
   .select {
-    padding: clamp(8px, 2.5vw, 16px) clamp(12px, 3.75vw, 24px) clamp(8px, 2.5vw, 16px) clamp(12px, 3.75vw, 24px);
+    padding: clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px) clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .select {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .select {
-    height: clamp(28px, 8.75vw, 56px);
+    height: clamp(45.948px, 14.35875vw, 91.896px);
   }
 
   .select select {
-    width: clamp(135px, 42.1875vw, 270px);
+    width: clamp(221.535px, 69.2296875vw, 443.07px);
   }
 
   .fakecheck {
-    width: clamp(16px, 5vw, 32px);
+    width: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .fakecheck {
-    height: clamp(16px, 5vw, 32px);
+    height: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .fakecheck {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .form__policy {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .round-btn {
-    width: clamp(83px, 25.9375vw, 166px);
+    width: clamp(136.203px, 42.5634375vw, 272.406px);
   }
 
   .round-btn {
-    height: clamp(83px, 25.9375vw, 166px);
+    height: clamp(136.203px, 42.5634375vw, 272.406px);
   }
 
   .round-btn {
-    top: clamp(33.5px, 10.46875vw, 67px);
+    top: clamp(54.9735px, 17.17921875vw, 109.947px);
   }
 
   .round-btn::before {
-    width: clamp(89px, 27.8125vw, 178px);
+    width: clamp(146.049px, 45.6403125vw, 292.098px);
   }
 
   .round-btn::before {
-    height: clamp(89px, 27.8125vw, 178px);
+    height: clamp(146.049px, 45.6403125vw, 292.098px);
   }
 
   .round-btn p {
-    gap: clamp(2px, 0.625vw, 4px);
+    gap: clamp(3.282px, 1.025625vw, 6.564px);
   }
 
   .popup {
-    width: clamp(448px, 140vw, 896px);
+    width: clamp(735.168px, 229.74vw, 1470.336px);
   }
 
   .popup {
-    padding: clamp(16px, 5vw, 32px) clamp(24px, 7.5vw, 48px) clamp(16px, 5vw, 32px) clamp(24px, 7.5vw, 48px);
+    padding: clamp(26.256px, 8.205vw, 52.512px) clamp(39.384px, 12.3075vw, 78.768px) clamp(26.256px, 8.205vw, 52.512px) clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .popup {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .popup_close {
-    width: clamp(24px, 7.5vw, 48px);
+    width: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .popup_close {
-    height: clamp(24px, 7.5vw, 48px);
+    height: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .popup_close {
-    right: clamp(24px, 7.5vw, 48px);
+    right: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .popup_close {
-    top: clamp(16px, 5vw, 32px);
+    top: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .popup > img {
-    width: clamp(198.5px, 62.03125vw, 397px);
+    width: clamp(325.7385px, 101.79328125vw, 651.477px);
   }
 
   .popup h2 {
-    margin-bottom: clamp(4px, 1.25vw, 8px);
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .popup > p {
-    margin-bottom: clamp(20px, 6.25vw, 40px);
+    margin-bottom: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .popup form > .flex {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .popup form > .flex {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .popup form > .flex > label {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .popup form .form__policy {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__top {
-    padding: clamp(8px, 2.5vw, 16px) clamp(0px, 0vw, 0px) clamp(8px, 2.5vw, 16px) clamp(0px, 0vw, 0px);
+    padding: clamp(13.128px, 4.1025vw, 26.256px) clamp(0px, 0vw, 0px) clamp(13.128px, 4.1025vw, 26.256px) clamp(0px, 0vw, 0px);
   }
 
   .header__top button {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__top button {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .header__top button {
-    padding: clamp(6.5px, 2.03125vw, 13px) clamp(22px, 6.875vw, 44px) clamp(6.5px, 2.03125vw, 13px) clamp(22px, 6.875vw, 44px);
+    padding: clamp(10.6665px, 3.33328125vw, 21.333px) clamp(36.102px, 11.281875vw, 72.204px) clamp(10.6665px, 3.33328125vw, 21.333px) clamp(36.102px, 11.281875vw, 72.204px);
   }
 
   .header__top button img {
-    width: clamp(10px, 3.125vw, 20px);
+    width: clamp(16.41px, 5.128125vw, 32.82px);
   }
 
   .header__top button img {
-    height: clamp(10px, 3.125vw, 20px);
+    height: clamp(16.41px, 5.128125vw, 32.82px);
   }
 
   .header__logo {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__logo a {
-    width: clamp(113.5px, 35.46875vw, 227px);
+    width: clamp(186.2535px, 58.20421875vw, 372.507px);
   }
 
   .header__logo a {
-    height: clamp(30px, 9.375vw, 60px);
+    height: clamp(49.23px, 15.384375vw, 98.46px);
   }
 
   .header__logo a img {
-    width: clamp(113.5px, 35.46875vw, 227px);
+    width: clamp(186.2535px, 58.20421875vw, 372.507px);
   }
 
   .header__logo a img {
-    height: clamp(30px, 9.375vw, 60px);
+    height: clamp(49.23px, 15.384375vw, 98.46px);
   }
 
   .header__logo p {
-    padding-left: clamp(2.5px, 0.78125vw, 5px);
+    padding-left: clamp(4.1025px, 1.28203125vw, 8.205px);
   }
 
   .header__social {
-    gap: clamp(3.5px, 1.09375vw, 7px);
+    gap: clamp(5.7435px, 1.79484375vw, 11.487px);
   }
 
   .header__social span::before {
-    width: clamp(4px, 1.25vw, 8px);
+    width: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__social span::before {
-    height: clamp(4px, 1.25vw, 8px);
+    height: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__social a {
-    width: clamp(20px, 6.25vw, 40px);
+    width: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .header__social a {
-    height: clamp(20px, 6.25vw, 40px);
+    height: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .header__social a img {
-    width: clamp(16px, 5vw, 32px);
+    width: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .header__social a img {
-    height: clamp(16px, 5vw, 32px);
+    height: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .header__social-icons {
-    gap: clamp(10px, 3.125vw, 20px);
+    gap: clamp(16.41px, 5.128125vw, 32.82px);
   }
 
   .header__contacts {
-    gap: clamp(7.5px, 2.34375vw, 15px);
+    gap: clamp(12.3075px, 3.84609375vw, 24.615px);
   }
 
   .header__contacts > span::before {
-    width: clamp(4px, 1.25vw, 8px);
+    width: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__contacts > span::before {
-    height: clamp(4px, 1.25vw, 8px);
+    height: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__contacts a {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__contacts a img {
-    width: clamp(12px, 3.75vw, 24px);
+    width: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .header__contacts a img {
-    height: clamp(12px, 3.75vw, 24px);
+    height: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .header__bottom {
-    padding: clamp(3px, 0.9375vw, 6px) clamp(1px, 0.3125vw, 2px) clamp(21px, 6.5625vw, 42px) clamp(1px, 0.3125vw, 2px);
+    padding: clamp(4.923px, 1.5384375vw, 9.846px) clamp(1.641px, 0.5128125vw, 3.282px) clamp(34.461px, 10.7690625vw, 68.922px) clamp(1.641px, 0.5128125vw, 3.282px);
   }
 
   .header__bottom ul {
-    gap: clamp(36px, 11.25vw, 72px);
+    gap: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .header__bottom button {
-    padding: clamp(6.125px, 1.9140625vw, 12.25px) clamp(9.15px, 2.859375vw, 18.3px) clamp(6.125px, 1.9140625vw, 12.25px) clamp(9.15px, 2.859375vw, 18.3px);
+    padding: clamp(10.051125px, 3.1409765625vw, 20.10225px) clamp(15.01515px, 4.692234375vw, 30.0303px) clamp(10.051125px, 3.1409765625vw, 20.10225px) clamp(15.01515px, 4.692234375vw, 30.0303px);
   }
 
   .header__bottom button {
-    border-radius: clamp(4px, 1.25vw, 8px);
+    border-radius: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .header__sticky-inner {
-    padding: clamp(10px, 3.125vw, 20px) clamp(1px, 0.3125vw, 2px) clamp(10px, 3.125vw, 20px) clamp(1px, 0.3125vw, 2px);
+    padding: clamp(16.41px, 5.128125vw, 32.82px) clamp(1.641px, 0.5128125vw, 3.282px) clamp(16.41px, 5.128125vw, 32.82px) clamp(1.641px, 0.5128125vw, 3.282px);
   }
 
   .header__sticky-inner ul {
-    gap: clamp(36px, 11.25vw, 72px);
+    gap: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .header__sticky-inner button {
-    padding: clamp(6.125px, 1.9140625vw, 12.25px) clamp(9.15px, 2.859375vw, 18.3px) clamp(6.125px, 1.9140625vw, 12.25px) clamp(9.15px, 2.859375vw, 18.3px);
+    padding: clamp(10.051125px, 3.1409765625vw, 20.10225px) clamp(15.01515px, 4.692234375vw, 30.0303px) clamp(10.051125px, 3.1409765625vw, 20.10225px) clamp(15.01515px, 4.692234375vw, 30.0303px);
   }
 
   .header__sticky-inner button {
-    border-radius: clamp(4px, 1.25vw, 8px);
+    border-radius: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .footer__top {
-    padding: clamp(24px, 7.5vw, 48px) clamp(0px, 0vw, 0px) clamp(24px, 7.5vw, 48px) clamp(0px, 0vw, 0px);
+    padding: clamp(39.384px, 12.3075vw, 78.768px) clamp(0px, 0vw, 0px) clamp(39.384px, 12.3075vw, 78.768px) clamp(0px, 0vw, 0px);
   }
 
   .footer__logo {
-    width: clamp(113.5px, 35.46875vw, 227px);
+    width: clamp(186.2535px, 58.20421875vw, 372.507px);
   }
 
   .footer__logo {
-    height: clamp(30px, 9.375vw, 60px);
+    height: clamp(49.23px, 15.384375vw, 98.46px);
   }
 
   .footer__logo {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .footer .col {
-    width: clamp(233px, 72.8125vw, 466px);
+    width: clamp(382.353px, 119.4853125vw, 764.706px);
   }
 
   .footer .col p {
-    margin-bottom: clamp(4px, 1.25vw, 8px);
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .footer .col p:first-of-type {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .footer .col strong:first-of-type {
-    margin-bottom: clamp(4px, 1.25vw, 8px);
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .footer .col a:last-child {
-    margin-top: clamp(4px, 1.25vw, 8px);
+    margin-top: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .footer nav {
-    margin-left: clamp(154.5px, 48.28125vw, 309px);
+    margin-left: clamp(253.5345px, 79.22953125vw, 507.069px);
   }
 
   .footer nav {
-    margin-top: clamp(12px, 3.75vw, 24px);
+    margin-top: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .footer nav h2 {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .footer nav ul {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .footer__contacts {
-    padding-top: clamp(12px, 3.75vw, 24px);
+    padding-top: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .footer__contacts h2 {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .footer__contacts p:not(:last-child) {
-    margin-bottom: clamp(4px, 1.25vw, 8px);
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .footer__contacts .row {
-    margin-top: clamp(16px, 5vw, 32px);
+    margin-top: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .footer__contacts .row {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .footer__contacts .row a {
-    width: clamp(32px, 10vw, 64px);
+    width: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .footer__contacts .row a {
-    height: clamp(32px, 10vw, 64px);
+    height: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .footer__bottom {
-    padding: clamp(8.5px, 2.65625vw, 17px) clamp(0px, 0vw, 0px) clamp(8.5px, 2.65625vw, 17px) clamp(0px, 0vw, 0px);
+    padding: clamp(13.9485px, 4.35890625vw, 27.897px) clamp(0px, 0vw, 0px) clamp(13.9485px, 4.35890625vw, 27.897px) clamp(0px, 0vw, 0px);
   }
 
   .footer__bottom a {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .offer > img {
-    height: clamp(401.5px, 125.46875vw, 803px);
+    height: clamp(658.8615px, 205.89421875vw, 1317.723px);
   }
 
   .offer__inner h1 {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .offer__inner h2 {
-    margin-bottom: clamp(32px, 10vw, 64px);
+    margin-bottom: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .offer__inner ul {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .offer__inner ul {
-    margin-bottom: clamp(32px, 10vw, 64px);
+    margin-bottom: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .offer__inner ul li {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .offer__inner ul li img {
-    width: clamp(16px, 5vw, 32px);
+    width: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .offer__inner ul li img {
-    height: clamp(16px, 5vw, 32px);
+    height: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .offer__btns {
-    gap: clamp(24px, 7.5vw, 48px);
+    gap: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .offer__partners {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .offer__partners {
-    margin-top: clamp(42px, 13.125vw, 84px);
+    margin-top: clamp(68.922px, 21.538125vw, 137.844px);
   }
 
   .offer__partner {
-    padding: clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px);
+    padding: clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .offer__partner {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .offer__partner h2 {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .offer__partner p {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .offer__partner p:last-child {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .offer__partner img {
-    width: clamp(52px, 16.25vw, 104px);
+    width: clamp(85.332px, 26.66625vw, 170.664px);
   }
 
   .offer__partner img {
-    height: clamp(52px, 16.25vw, 104px);
+    height: clamp(85.332px, 26.66625vw, 170.664px);
   }
 
   .offer__partner img {
-    right: clamp(16px, 5vw, 32px);
+    right: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .offer__partner img {
-    bottom: clamp(16px, 5vw, 32px);
+    bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .catalog ul {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .catalog ul {
-    row-gap: clamp(24px, 7.5vw, 48px);
+    row-gap: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .catalog__item > img {
-    height: clamp(125px, 39.0625vw, 250px);
+    height: clamp(205.125px, 64.1015625vw, 410.25px);
   }
 
   .catalog__item > img {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .catalog__item > img {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .catalog__item-pagination {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .catalog__item-pagination {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .catalog__item-pagination img {
-    height: clamp(46px, 14.375vw, 92px);
+    height: clamp(75.486px, 23.589375vw, 150.972px);
   }
 
   .catalog__item-pagination img {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .catalog__item h3 {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .catalog__item p {
-    margin-bottom: clamp(4px, 1.25vw, 8px);
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .catalog__item p:last-child {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .catalog__form {
-    height: clamp(369px, 115.3125vw, 738px);
+    height: clamp(605.529px, 189.2278125vw, 1211.058px);
   }
 
   .catalog__form-inner {
-    padding: clamp(32px, 10vw, 64px) clamp(0px, 0vw, 0px) clamp(64px, 20vw, 128px) clamp(0px, 0vw, 0px);
+    padding: clamp(52.512px, 16.41vw, 105.024px) clamp(0px, 0vw, 0px) clamp(105.024px, 32.82vw, 210.048px) clamp(0px, 0vw, 0px);
   }
 
   .catalog__form-inner .round-btn {
-    top: clamp(32px, 10vw, 64px);
+    top: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .catalog__form-inner > span {
-    margin-bottom: clamp(16px, 5vw, 32px);
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .catalog__form h2 {
-    margin-bottom: clamp(24px, 7.5vw, 48px);
+    margin-bottom: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .catalog__form h2 {
-    padding-top: clamp(47px, 14.6875vw, 94px);
+    padding-top: clamp(77.127px, 24.1021875vw, 154.254px);
   }
 
   .catalog__form form .flex {
-    gap: clamp(12px, 3.75vw, 24px);
+    gap: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .catalog__form form .flex {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .catalog__form form .form__policy {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .advantages__block {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .advantages__block:not(:last-child) {
-    margin-bottom: clamp(32px, 10vw, 64px);
+    margin-bottom: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .advantages__block-img {
-    width: clamp(372px, 116.25vw, 744px);
+    width: clamp(610.452px, 190.76625vw, 1220.904px);
   }
 
   .advantages__block-img {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .advantages__block-img img {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .advantages__block-dot .dot {
-    width: clamp(12px, 3.75vw, 24px);
+    width: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .advantages__block-dot .dot {
-    height: clamp(12px, 3.75vw, 24px);
+    height: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .advantages__block-dot .dot::before {
-    width: clamp(10px, 3.125vw, 20px);
+    width: clamp(16.41px, 5.128125vw, 32.82px);
   }
 
   .advantages__block-dot .dot::before {
-    height: clamp(10px, 3.125vw, 20px);
+    height: clamp(16.41px, 5.128125vw, 32.82px);
   }
 
   .advantages__block-dot-info {
-    padding: clamp(2px, 0.625vw, 4px) clamp(4px, 1.25vw, 8px) clamp(2px, 0.625vw, 4px) clamp(2px, 0.625vw, 4px);
+    padding: clamp(3.282px, 1.025625vw, 6.564px) clamp(6.564px, 2.05125vw, 13.128px) clamp(3.282px, 1.025625vw, 6.564px) clamp(3.282px, 1.025625vw, 6.564px);
   }
 
   .advantages__block-dot-info {
-    gap: clamp(2px, 0.625vw, 4px);
+    gap: clamp(3.282px, 1.025625vw, 6.564px);
   }
 
   .advantages__block-dot-info {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .advantages__block-dot-info::before {
-    width: clamp(8px, 2.5vw, 16px);
+    width: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .advantages__block-dot-info::before {
-    height: clamp(8px, 2.5vw, 16px);
+    height: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .advantages__block-dot-info img {
-    width: clamp(41px, 12.8125vw, 82px);
+    width: clamp(67.281px, 21.0253125vw, 134.562px);
   }
 
   .advantages__block-dot-info img {
-    height: clamp(41px, 12.8125vw, 82px);
+    height: clamp(67.281px, 21.0253125vw, 134.562px);
   }
 
   .advantages__block-dot-info .flex {
-    gap: clamp(3px, 0.9375vw, 6px);
+    gap: clamp(4.923px, 1.5384375vw, 9.846px);
   }
 
   .advantages__block .col {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .advantages__block-text {
-    padding: clamp(16px, 5vw, 32px) clamp(12px, 3.75vw, 24px) clamp(16px, 5vw, 32px) clamp(12px, 3.75vw, 24px);
+    padding: clamp(26.256px, 8.205vw, 52.512px) clamp(19.692px, 6.15375vw, 39.384px) clamp(26.256px, 8.205vw, 52.512px) clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .advantages__block-text {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .advantages__block-text h3 {
-    margin-bottom: clamp(20px, 6.25vw, 40px);
+    margin-bottom: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .advantages__block-text button {
-    margin-top: clamp(8px, 2.5vw, 16px);
+    margin-top: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__mortgage > img {
-    height: clamp(366.5px, 114.53125vw, 733px);
+    height: clamp(601.4265px, 187.94578125vw, 1202.853px);
   }
 
   .form__mortgage-inner {
-    padding-top: clamp(75px, 23.4375vw, 150px);
+    padding-top: clamp(123.075px, 38.4609375vw, 246.15px);
   }
 
   .form__mortgage h2 {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .form__mortgage ul {
-    gap: clamp(24px, 7.5vw, 48px);
+    gap: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .form__mortgage ul {
-    width: clamp(265px, 82.8125vw, 530px);
+    width: clamp(434.865px, 135.8953125vw, 869.73px);
   }
 
   .form__mortgage ul {
-    row-gap: clamp(8px, 2.5vw, 16px);
+    row-gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__mortgage ul {
-    margin-bottom: clamp(28px, 8.75vw, 56px);
+    margin-bottom: clamp(45.948px, 14.35875vw, 91.896px);
   }
 
   .form__mortgage ul li {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .form__mortgage ul li img {
-    width: clamp(12px, 3.75vw, 24px);
+    width: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .form__mortgage ul li img {
-    height: clamp(12px, 3.75vw, 24px);
+    height: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .form__mortgage .round-btn {
-    top: clamp(75px, 23.4375vw, 150px);
+    top: clamp(123.075px, 38.4609375vw, 246.15px);
   }
 
   .form__mortgage form > .flex {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__mortgage form > .flex {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__mortgage form > .flex > label {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__mortgage form .form__policy {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .form__mortgage-partners {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__mortgage-partners {
-    margin-top: clamp(24px, 7.5vw, 48px);
+    margin-top: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .form__mortgage-partner {
-    padding: clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px);
+    padding: clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__mortgage-partner {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .form__mortgage-partner h2 {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .form__mortgage-partner p {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__mortgage-partner p:last-child {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .form__mortgage-partner img {
-    width: clamp(52px, 16.25vw, 104px);
+    width: clamp(85.332px, 26.66625vw, 170.664px);
   }
 
   .form__mortgage-partner img {
-    height: clamp(52px, 16.25vw, 104px);
+    height: clamp(85.332px, 26.66625vw, 170.664px);
   }
 
   .form__mortgage-partner img {
-    right: clamp(16px, 5vw, 32px);
+    right: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__mortgage-partner img {
-    bottom: clamp(16px, 5vw, 32px);
+    bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .projects__inner {
-    width: clamp(569px, 177.8125vw, 1138px);
+    width: clamp(933.729px, 291.7903125vw, 1867.458px);
   }
 
   .projects .projectsSwiper__info {
-    padding: clamp(8px, 2.5vw, 16px) clamp(8px, 2.5vw, 16px) clamp(8px, 2.5vw, 16px) clamp(8px, 2.5vw, 16px);
+    padding: clamp(13.128px, 4.1025vw, 26.256px) clamp(13.128px, 4.1025vw, 26.256px) clamp(13.128px, 4.1025vw, 26.256px) clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .projects .projectsSwiper__info {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .projects .projectsSwiper__info-img {
-    gap: clamp(4.5px, 1.40625vw, 9px);
+    gap: clamp(7.3845px, 2.30765625vw, 14.769px);
   }
 
   .projects .projectsSwiper__info-img {
-    margin-bottom: clamp(4px, 1.25vw, 8px);
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .projects .projectsSwiper__info img {
-    width: clamp(24px, 7.5vw, 48px);
+    width: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .projects .projectsSwiper__info img {
-    height: clamp(24px, 7.5vw, 48px);
+    height: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .projects .projectsSwiper__info img {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .projects .swiper-slide {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .projects .swiper-slide > img {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .projects .swiper-slide .round-btn {
-    width: clamp(48.5px, 15.15625vw, 97px);
+    width: clamp(79.5885px, 24.87140625vw, 159.177px);
   }
 
   .projects .swiper-slide .round-btn {
-    height: clamp(48.5px, 15.15625vw, 97px);
+    height: clamp(79.5885px, 24.87140625vw, 159.177px);
   }
 
   .projects .swiper-slide .round-btn {
-    left: clamp(12px, 3.75vw, 24px);
+    left: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .projects .swiper-slide .round-btn {
-    top: clamp(12px, 3.75vw, 24px);
+    top: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .projects .swiper-slide .round-btn::before {
-    width: clamp(52px, 16.25vw, 104px);
+    width: clamp(85.332px, 26.66625vw, 170.664px);
   }
 
   .projects .swiper-slide .round-btn::before {
-    height: clamp(52px, 16.25vw, 104px);
+    height: clamp(85.332px, 26.66625vw, 170.664px);
   }
 
   .projects .swiper__buttons svg {
-    width: clamp(36px, 11.25vw, 72px);
+    width: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .projects .swiper__buttons svg {
-    height: clamp(36px, 11.25vw, 72px);
+    height: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .form__excursion-info {
-    right: clamp(13px, 4.0625vw, 26px);
+    right: clamp(21.333px, 6.6665625vw, 42.666px);
   }
 
   .form__excursion-info {
-    top: clamp(36px, 11.25vw, 72px);
+    top: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .form__excursion-info::before {
-    width: clamp(4px, 1.25vw, 8px);
+    width: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .form__excursion-info::before {
-    height: clamp(4px, 1.25vw, 8px);
+    height: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .form__excursion-inner {
-    height: clamp(210.5px, 65.78125vw, 421px);
+    height: clamp(345.4305px, 107.94703125vw, 690.861px);
   }
 
   .form__excursion-inner {
-    padding: clamp(24px, 7.5vw, 48px) clamp(0px, 0vw, 0px) clamp(24px, 7.5vw, 48px) clamp(48.5px, 15.15625vw, 97px);
+    padding: clamp(39.384px, 12.3075vw, 78.768px) clamp(0px, 0vw, 0px) clamp(39.384px, 12.3075vw, 78.768px) clamp(79.5885px, 24.87140625vw, 159.177px);
   }
 
   .form__excursion-inner > .form__excursion-employee {
-    width: clamp(325.5px, 101.71875vw, 651px);
+    width: clamp(534.1455px, 166.92046875vw, 1068.291px);
   }
 
   .form__excursion-inner > .form__excursion-employee {
-    height: clamp(236.5px, 73.90625vw, 473px);
+    height: clamp(388.0965px, 121.28015625vw, 776.193px);
   }
 
   .form__excursion-inner h2 {
-    font-size: clamp(20px, 6.25vw, 40px);
+    font-size: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .form__excursion-inner h2 {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__excursion-inner > p {
-    margin-bottom: clamp(24px, 7.5vw, 48px);
+    margin-bottom: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .form__excursion-inner form > .flex {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__excursion-inner form > .flex {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__excursion-inner form > .flex > label {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__excursion-inner form .form__policy {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .steps__inner::before {
-    width: clamp(100px, 31.25vw, 200px);
+    width: clamp(164.1px, 51.28125vw, 328.2px);
   }
 
   .steps__inner::before {
-    height: clamp(325px, 101.5625vw, 650px);
+    height: clamp(533.325px, 166.6640625vw, 1066.65px);
   }
 
   .steps__inner::after {
-    width: clamp(100px, 31.25vw, 200px);
+    width: clamp(164.1px, 51.28125vw, 328.2px);
   }
 
   .steps__inner::after {
-    height: clamp(325px, 101.5625vw, 650px);
+    height: clamp(533.325px, 166.6640625vw, 1066.65px);
   }
 
   .steps__inner > svg:first-child {
-    width: clamp(36px, 11.25vw, 72px);
+    width: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .steps__inner > svg:first-child {
-    height: clamp(36px, 11.25vw, 72px);
+    height: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .steps__inner > svg:last-child {
-    width: clamp(36px, 11.25vw, 72px);
+    width: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .steps__inner > svg:last-child {
-    height: clamp(36px, 11.25vw, 72px);
+    height: clamp(59.076px, 18.46125vw, 118.152px);
   }
 
   .stepsSwiper .swiper-slide {
-    height: clamp(307px, 95.9375vw, 614px);
+    height: clamp(503.787px, 157.4334375vw, 1007.574px);
   }
 
   .stepsSwiper .swiper-slide {
-    padding: clamp(24px, 7.5vw, 48px) clamp(16px, 5vw, 32px) clamp(24px, 7.5vw, 48px) clamp(16px, 5vw, 32px);
+    padding: clamp(39.384px, 12.3075vw, 78.768px) clamp(26.256px, 8.205vw, 52.512px) clamp(39.384px, 12.3075vw, 78.768px) clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .stepsSwiper .swiper-slide {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .stepsSwiper .swiper-slide span {
-    padding: clamp(4px, 1.25vw, 8px) clamp(4px, 1.25vw, 8px) clamp(4px, 1.25vw, 8px) clamp(4px, 1.25vw, 8px);
+    padding: clamp(6.564px, 2.05125vw, 13.128px) clamp(6.564px, 2.05125vw, 13.128px) clamp(6.564px, 2.05125vw, 13.128px) clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .stepsSwiper .swiper-slide span {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .stepsSwiper .swiper-slide span {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .stepsSwiper .swiper-slide h3 {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .stepsSwiper .swiper-slide a {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .stepsSwiper .swiper-slide strong {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .stepsSwiper .swiper-slide.fitst-slide > img {
-    width: clamp(101.5px, 31.71875vw, 203px);
+    width: clamp(166.5615px, 52.05046875vw, 333.123px);
   }
 
   .stepsSwiper .swiper-slide.fitst-slide > img {
-    height: clamp(224.5px, 70.15625vw, 449px);
+    height: clamp(368.4045px, 115.12640625vw, 736.809px);
   }
 
   .stepsSwiper .swiper-slide.fitst-slide > img {
-    right: clamp(16px, 5vw, 32px);
+    right: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .stepsSwiper-pagination {
-    margin-top: clamp(25px, 7.8125vw, 50px);
+    margin-top: clamp(41.025px, 12.8203125vw, 82.05px);
   }
 
   .form__price-inner {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .form__price-inner {
-    padding: clamp(24px, 7.5vw, 48px) clamp(48.5px, 15.15625vw, 97px) clamp(24px, 7.5vw, 48px) clamp(48.5px, 15.15625vw, 97px);
+    padding: clamp(39.384px, 12.3075vw, 78.768px) clamp(79.5885px, 24.87140625vw, 159.177px) clamp(39.384px, 12.3075vw, 78.768px) clamp(79.5885px, 24.87140625vw, 159.177px);
   }
 
   .form__price-inner > img {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .form__price-inner h2 {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__price-inner > p {
-    margin-bottom: clamp(16px, 5vw, 32px);
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__price form {
-    width: clamp(312px, 97.5vw, 624px);
+    width: clamp(511.992px, 159.9975vw, 1023.984px);
   }
 
   .form__price form > .flex {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__price form > .flex label.flex {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .form__price form .form__policy {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .form__price form .form__policy {
-    margin-top: clamp(16px, 5vw, 32px);
+    margin-top: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .form__price form .form__policy {
-    margin-bottom: clamp(16px, 5vw, 32px);
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .slider {
-    padding: clamp(8px, 2.5vw, 16px) clamp(8px, 2.5vw, 16px) clamp(8px, 2.5vw, 16px) clamp(8px, 2.5vw, 16px);
+    padding: clamp(13.128px, 4.1025vw, 26.256px) clamp(13.128px, 4.1025vw, 26.256px) clamp(13.128px, 4.1025vw, 26.256px) clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .slider {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .slider {
-    margin-top: clamp(12px, 3.75vw, 24px);
+    margin-top: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .slider .row {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .slider .row {
-    margin-top: clamp(3.5px, 1.09375vw, 7px);
+    margin-top: clamp(5.7435px, 1.79484375vw, 11.487px);
   }
 
   .slider .row .line {
-    gap: clamp(17.5px, 5.46875vw, 35px);
+    gap: clamp(28.7175px, 8.97421875vw, 57.435px);
   }
 
   .slider .row .line p {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .slider .slider-wrapper {
-    height: clamp(16px, 5vw, 32px);
+    height: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .slider .price-slider::-webkit-slider-thumb {
-    width: clamp(16px, 5vw, 32px);
+    width: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .slider .price-slider::-webkit-slider-thumb {
-    height: clamp(16px, 5vw, 32px);
+    height: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .slider .price-slider::-webkit-slider-thumb {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .slider .price-slider::-moz-range-thumb {
-    width: clamp(16px, 5vw, 32px);
+    width: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .slider .price-slider::-moz-range-thumb {
-    height: clamp(16px, 5vw, 32px);
+    height: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .slider .price-slider::-moz-range-thumb {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .faq__info h2 {
-    margin-bottom: clamp(32px, 10vw, 64px);
+    margin-bottom: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .faq__info p {
-    margin-bottom: clamp(16px, 5vw, 32px);
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .faq__inner {
-    padding: clamp(24px, 7.5vw, 48px) clamp(0px, 0vw, 0px) clamp(24px, 7.5vw, 48px) clamp(0px, 0vw, 0px);
+    padding: clamp(39.384px, 12.3075vw, 78.768px) clamp(0px, 0vw, 0px) clamp(39.384px, 12.3075vw, 78.768px) clamp(0px, 0vw, 0px);
   }
 
   .faq__inner {
-    gap: clamp(48px, 15vw, 96px);
+    gap: clamp(78.768px, 24.615vw, 157.536px);
   }
 
   .faq ul {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .faq ul li {
-    width: clamp(452.5px, 141.40625vw, 905px);
+    width: clamp(742.5525px, 232.04765625vw, 1485.105px);
   }
 
   .faq ul li {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .faq ul li {
-    padding: clamp(12px, 3.75vw, 24px) clamp(24px, 7.5vw, 48px) clamp(12px, 3.75vw, 24px) clamp(24px, 7.5vw, 48px);
+    padding: clamp(19.692px, 6.15375vw, 39.384px) clamp(39.384px, 12.3075vw, 78.768px) clamp(19.692px, 6.15375vw, 39.384px) clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .faq ul li .faq__item-question svg {
-    width: clamp(24px, 7.5vw, 48px);
+    width: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .faq ul li .faq__item-question svg {
-    height: clamp(24px, 7.5vw, 48px);
+    height: clamp(39.384px, 12.3075vw, 78.768px);
   }
 
   .faq ul li .faq__item-answer {
-    margin-top: clamp(8px, 2.5vw, 16px);
+    margin-top: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .contacts__inner {
-    gap: clamp(44px, 13.75vw, 88px);
+    gap: clamp(72.204px, 22.56375vw, 144.408px);
   }
 
   .contacts__inner iframe {
-    width: clamp(372px, 116.25vw, 744px);
+    width: clamp(610.452px, 190.76625vw, 1220.904px);
   }
 
   .contacts__inner iframe {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .contacts__inner-form {
-    padding: clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px) clamp(16px, 5vw, 32px);
+    padding: clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px) clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .contacts__inner-form {
-    border-radius: clamp(5px, 1.5625vw, 10px);
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .contacts__inner-form {
-    margin-bottom: clamp(16px, 5vw, 32px);
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .contacts__inner-form h3 {
-    margin-bottom: clamp(12px, 3.75vw, 24px);
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .contacts__inner-form label.flex {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .contacts__inner-form form > .flex {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .contacts__inner-form form > .flex:nth-child(2) {
-    margin-top: clamp(8px, 2.5vw, 16px);
+    margin-top: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .contacts__inner-form form > .flex:nth-child(2) {
-    margin-bottom: clamp(5px, 1.5625vw, 10px);
+    margin-bottom: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .contacts__inner-form .form__policy.flex {
-    gap: clamp(4px, 1.25vw, 8px);
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
   .contacts .row {
-    gap: clamp(8px, 2.5vw, 16px);
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .contacts .row:not(:last-child) {
-    margin-bottom: clamp(8px, 2.5vw, 16px);
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .contacts .row img {
-    width: clamp(20px, 6.25vw, 40px);
+    width: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .contacts .row img {
-    height: clamp(20px, 6.25vw, 40px);
+    height: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .contacts ul {
-    margin-top: clamp(16px, 5vw, 32px);
+    margin-top: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .contacts ul {
-    gap: clamp(16px, 5vw, 32px);
+    gap: clamp(26.256px, 8.205vw, 52.512px);
   }
 
   .contacts ul li,
   .contacts ul a,
   .contacts ul img {
-    width: clamp(32px, 10vw, 64px);
+    width: clamp(52.512px, 16.41vw, 105.024px);
   }
 
   .contacts ul li,
   .contacts ul a,
   .contacts ul img {
-    height: clamp(32px, 10vw, 64px);
+    height: clamp(52.512px, 16.41vw, 105.024px);
+  }
+
+  footer {
+    display: none;
+  }
+
+  .header__top button {
+    display: none;
+  }
+
+  .header__top .header__social {
+    display: none;
+  }
+
+  .header__top .header__contacts {
+    display: none;
+  }
+
+  .header__top .header__logo p {
+    display: none;
+  }
+
+  .header__bottom {
+    display: none;
+  }
+
+  .header__sticky.fixed {
+    display: none;
+  }
+
+  section:not(.offer):not(.catalog):not(.catalog__form) {
+    display: none;
+  }
+
+  :root {
+    --font-64: clamp(20.0px, 6.25vw, 40px);
+    --font-40: clamp(20.0px, 6.25vw, 40px);
+    --font-32: clamp(16.0px, 5.0vw, 32px);
+    --font-24: clamp(13.0px, 4.06vw, 26px);
+  }
+
+  section {
+    margin-bottom: clamp(15.9984px, 2.5vw, 48px);
+  }
+
+  .container {
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+    padding: clamp(0px, 0vw, 0px) clamp(8.6658px, 1.3541666667vw, 26px) clamp(0px, 0vw, 0px) clamp(8.6658px, 1.3541666667vw, 26px);
+  }
+
+  .button {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    padding: clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px);
+  }
+
+  h2.section__header {
+    margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+    width: clamp(89.3244px, 13.9583333333vw, 268px);
+  }
+
+  input:not([type=range]) {
+    padding: clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px);
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    line-height: 100%;
+  }
+
+  .select {
+    height: clamp(14.9985px, 2.34375vw, 45px);
+    padding: clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px) clamp(3.9996px, 0.625vw, 12px);
+  }
+
+  .select select {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    text-align: center;
+  }
+
+  .form__policy p {
+    font-size: clamp(4.6662px, 0.7291666667vw, 14px);
+  }
+
+  .form__policy p a {
+    display: block;
+  }
+
+  .fakecheck {
+    width: clamp(7.9992px, 1.25vw, 24px);
+    height: clamp(7.9992px, 1.25vw, 24px);
+    border-radius: clamp(2.3331px, 0.3645833333vw, 7px);
+  }
+
+  .round-btn {
+    display: none;
+  }
+
+  .offer > img {
+    height: clamp(222.3111px, 34.7395833333vw, 667px);
+  }
+
+  .offer__inner {
+    padding-top: clamp(31.9968px, 5vw, 96px);
+  }
+
+  .offer__inner h1 {
+    margin-bottom: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .offer__inner h2 {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+  }
+
+  .offer__inner ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: clamp(5.3328px, 0.8333333333vw, 16px);
+    margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+  }
+
+  .offer__inner ul li {
+    gap: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .offer__inner ul li img {
+    width: clamp(7.9992px, 1.25vw, 24px);
+    height: clamp(7.9992px, 1.25vw, 24px);
+  }
+
+  .offer__inner ul li p {
+    font-size: clamp(3.9996px, 0.625vw, 12px);
+  }
+
+  .offer__partners {
+    flex-direction: column;
+    gap: clamp(5.3328px, 0.8333333333vw, 16px);
+    margin-top: clamp(18.6648px, 2.9166666667vw, 56px);
+  }
+
+  .offer__partner {
+    width: 100%;
+    padding: clamp(7.9992px, 1.25vw, 24px) clamp(7.9992px, 1.25vw, 24px) clamp(7.9992px, 1.25vw, 24px) clamp(7.9992px, 1.25vw, 24px);
+    box-shadow: none;
+  }
+
+  .offer__partner img {
+    width: clamp(23.9976px, 3.75vw, 72px);
+    height: clamp(23.9976px, 3.75vw, 72px);
+    right: clamp(7.9992px, 1.25vw, 24px);
+    bottom: clamp(19.692px, 6.15375vw, 39.384px) !important;
+  }
+
+  .offer__partner h2 {
+    margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .offer__partner p {
+    margin-bottom: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .offer__partner p:last-child {
+    margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .offer__partner span {
+    font-size: clamp(3.9996px, 0.625vw, 12px);
+  }
+
+  .offer__btns {
+    flex-direction: column;
+    gap: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .offer__btns button {
+    width: 100%;
+  }
+
+  .catalog ul {
+    grid-template-columns: 1fr;
+    gap: clamp(13.332px, 2.0833333333vw, 40px);
+  }
+
+  .catalog__item > img {
+    margin-bottom: clamp(3.9996px, 0.625vw, 12px);
+    height: clamp(65.3268px, 10.2083333333vw, 196px);
+  }
+
+  .catalog__item-pagination {
+    gap: clamp(3.6663px, 0.5729166667vw, 11px);
+    margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .catalog__item-pagination img {
+    height: clamp(22.6644px, 3.5416666667vw, 68px);
+  }
+
+  .catalog__item h3 {
+    font-size: clamp(7.9992px, 1.25vw, 24px);
+    margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .catalog__item p {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    margin-bottom: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .catalog__item p:last-of-type {
+    margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .catalog__item strong {
+    font-size: clamp(9.6657px, 1.5104166667vw, 29px);
+  }
+
+  .catalog__form {
+    height: clamp(195.9804px, 30.625vw, 588px);
+  }
+
+  .catalog__form-inner {
+    padding-top: clamp(33.33px, 5.2083333333vw, 100px);
+    padding-bottom: clamp(18.6648px, 2.9166666667vw, 56px);
+  }
+
+  .catalog__form-inner > span {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .catalog__form h2 {
+    padding-top: 0;
+    margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+  }
+
+  .catalog__form form {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .catalog__form form .flex {
+    flex-direction: column;
+  }
+
+  .catalog__form form .select {
+    width: 100%;
+  }
+
+  .catalog__form form input {
+    width: 100%;
+    order: -1;
+  }
+
+  .catalog__form form button {
+    width: 100%;
+    order: 1;
+  }
+
+  .catalog__form form .form__policy.flex {
+    flex-direction: row;
+    gap: clamp(2.6664px, 0.4166666667vw, 8px);
   }
 }
 
 @media only screen and (hover: hover) and (max-width: 640px) {
   .header__social a:hover img {
-    width: clamp(20px, 6.25vw, 40px);
+    width: clamp(32.82px, 10.25625vw, 65.64px);
   }
 
   .header__social a:hover img {
-    height: clamp(20px, 6.25vw, 40px);
+    height: clamp(32.82px, 10.25625vw, 65.64px);
+  }
+}
+
+@media only screen and (max-width: 640px) and (max-width: 640px) {
+  section {
+    margin-bottom: clamp(39.384px, 12.3075vw, 78.768px);
+  }
+
+  .container {
+    padding: clamp(0px, 0vw, 0px) clamp(21.333px, 6.6665625vw, 42.666px) clamp(0px, 0vw, 0px) clamp(21.333px, 6.6665625vw, 42.666px);
+  }
+
+  .button {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .button {
+    padding: clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px);
+  }
+
+  h2.section__header {
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
+  }
+
+  h2.section__header {
+    width: clamp(219.894px, 68.716875vw, 439.788px);
+  }
+
+  input:not([type=range]) {
+    padding: clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px);
+  }
+
+  input:not([type=range]) {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .select {
+    height: clamp(36.9225px, 11.53828125vw, 73.845px);
+  }
+
+  .select {
+    padding: clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px) clamp(9.846px, 3.076875vw, 19.692px);
+  }
+
+  .select select {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .form__policy p {
+    font-size: clamp(11.487px, 3.5896875vw, 22.974px);
+  }
+
+  .fakecheck {
+    width: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .fakecheck {
+    height: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .fakecheck {
+    border-radius: clamp(5.7435px, 1.79484375vw, 11.487px);
+  }
+
+  .offer > img {
+    height: clamp(547.2735px, 171.02296875vw, 1094.547px);
+  }
+
+  .offer__inner {
+    padding-top: clamp(78.768px, 24.615vw, 157.536px);
+  }
+
+  .offer__inner h1 {
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .offer__inner h2 {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .offer__inner h2 {
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
+  }
+
+  .offer__inner ul {
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .offer__inner ul {
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
+  }
+
+  .offer__inner ul li {
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .offer__inner ul li img {
+    width: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .offer__inner ul li img {
+    height: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .offer__inner ul li p {
+    font-size: clamp(9.846px, 3.076875vw, 19.692px);
+  }
+
+  .offer__partners {
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .offer__partners {
+    margin-top: clamp(45.948px, 14.35875vw, 91.896px);
+  }
+
+  .offer__partner {
+    padding: clamp(19.692px, 6.15375vw, 39.384px) clamp(19.692px, 6.15375vw, 39.384px) clamp(19.692px, 6.15375vw, 39.384px) clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .offer__partner img {
+    width: clamp(59.076px, 18.46125vw, 118.152px);
+  }
+
+  .offer__partner img {
+    height: clamp(59.076px, 18.46125vw, 118.152px);
+  }
+
+  .offer__partner img {
+    right: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .offer__partner h2 {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .offer__partner p {
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .offer__partner p:last-child {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .offer__partner span {
+    font-size: clamp(9.846px, 3.076875vw, 19.692px);
+  }
+
+  .offer__btns {
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .catalog ul {
+    gap: clamp(32.82px, 10.25625vw, 65.64px);
+  }
+
+  .catalog__item > img {
+    margin-bottom: clamp(9.846px, 3.076875vw, 19.692px);
+  }
+
+  .catalog__item > img {
+    height: clamp(160.818px, 50.255625vw, 321.636px);
+  }
+
+  .catalog__item-pagination {
+    gap: clamp(9.0255px, 2.82046875vw, 18.051px);
+  }
+
+  .catalog__item-pagination {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .catalog__item-pagination img {
+    height: clamp(55.794px, 17.435625vw, 111.588px);
+  }
+
+  .catalog__item h3 {
+    font-size: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .catalog__item h3 {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .catalog__item p {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .catalog__item p {
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .catalog__item p:last-of-type {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .catalog__item strong {
+    font-size: clamp(23.7945px, 7.43578125vw, 47.589px);
+  }
+
+  .catalog__form {
+    height: clamp(482.454px, 150.766875vw, 964.908px);
+  }
+
+  .catalog__form-inner {
+    padding-top: clamp(82.05px, 25.640625vw, 164.1px);
+  }
+
+  .catalog__form-inner {
+    padding-bottom: clamp(45.948px, 14.35875vw, 91.896px);
+  }
+
+  .catalog__form-inner > span {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .catalog__form-inner > span {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .catalog__form h2 {
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
+  }
+
+  .catalog__form form .form__policy.flex {
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 }
 
