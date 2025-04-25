@@ -36,12 +36,11 @@ $(".catalog__item-pagination img").on("click", function () {
 if (document.querySelectorAll('.projectsSwiper').length) {
 
     const projectsSwiper= new Swiper('.projectsSwiper', {
-        loop: true,
         slidesPerView: 1,
         speed: 600,
         centeredSlides: true,
         effect: "coverflow",
-    
+        initialSlide: 1,
         keyboard: {
             enabled: true,
             onlyInViewport: false,

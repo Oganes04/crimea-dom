@@ -508,6 +508,7 @@ input:not([type=range])::placeholder {
   position: absolute;
   right: 0;
   top: 0;
+  width: clamp(132.3201px, 20.6770833333vw, 397px);
 }
 
 .popup h2 {
@@ -550,6 +551,7 @@ input:not([type=range])::placeholder {
 
 .popup form > .flex > label input {
   border-color: #003A70;
+  color: #3F3D4C;
 }
 
 .popup form .form__policy {
@@ -1720,6 +1722,19 @@ input:not([type=range])::placeholder {
   width: clamp(23.9976px, 3.75vw, 72px);
   height: clamp(23.9976px, 3.75vw, 72px);
   cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.projects .swiper__buttons .projectsSwiper-silder-next.swiper-button-disabled svg {
+  opacity: 0;
+}
+
+.projects .swiper__buttons .projectsSwiper-silder-prev.swiper-button-disabled svg {
+  opacity: 0;
 }
 
 .form__excursion-info {
@@ -2488,6 +2503,10 @@ input:not([type=range])::placeholder {
 
   .popup_close {
     top: clamp(16px, 5vw, 32px);
+  }
+
+  .popup > img {
+    width: clamp(198.5px, 62.03125vw, 397px);
   }
 
   .popup h2 {
