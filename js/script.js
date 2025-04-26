@@ -61,7 +61,21 @@ if (document.querySelectorAll('.projectsSwiper').length) {
         pagination: {
             el: ".projectsSwiper-pagination",
             clickable: true,
+        },
+
+        breakpoints: {
+          640: {
+            // При ширине ≥ 640px применяются настройки по умолчанию (уже указаны выше)
           },
+          // При ширине < 640px
+          0: {
+            effect: 'slide',
+            centeredSlides: false,
+            coverflowEffect: null,
+            slidesPerView: 1,
+            spaceBetween: 16,
+          }
+        }
     })
 }
 
@@ -82,16 +96,16 @@ if (document.querySelectorAll('.stepsSwiper').length) {
     pagination: {
       el: ".stepsSwiper-pagination",
     },
-    // breakpoints: {
-    //   641: {
-    //     slidesPerView: 3,
-    //     spaceBetween: 32
-    //   }, 
-    //   0: {
-    //     slidesPerView: "auto",
-    //     spaceBetween: 10
-    //   },
-    // }
+    breakpoints: {
+      641: {
+        slidesPerView: 'auto',
+        spaceBetween: 32
+      }, 
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 16
+      },
+    }
   });
 }
 

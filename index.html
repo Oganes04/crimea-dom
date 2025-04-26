@@ -445,7 +445,17 @@
 
 
         <section class="form__mortgage">
-            <img src="../images/form__mortgage.png" alt="">
+            <!-- <img src="../images/form__mortgage.png" alt=""> -->
+            <picture>
+                <source media="(max-width: 640px)" 
+                        srcset="../images/form__mortgage-adaptive.png">
+                <source media="(min-width: 641px)" 
+                        srcset="../images/form__mortgage.png">
+                <img class="offer__bg" 
+                     src="../images/form__mortgage.png" 
+                     alt="">
+            </picture>
+
             <div class="container">
                 <div class="form__mortgage-inner">
                     <h2>Ипотека<br>
@@ -816,8 +826,20 @@
         <section class="form__excursion">
             <div class="container">
                 <div class="form__excursion-inner">
-                    <img src="../images/form__excursion.png" alt="">
+                    <!-- <img src="../images/form__excursion.png" alt=""> -->
                     <img src="../images/form__excursion-employee.png" alt="" class="form__excursion-employee">
+                    
+                    <picture>
+
+                        <source media="(max-width: 640px)" 
+                                srcset="../images/form__excursion-adaptive.png">
+                        <source media="(min-width: 641px)" 
+                                srcset="../images/form__excursion.png">
+                        <img class="offer__bg" 
+                             src="../images/form__excursion.png" 
+                             alt="">
+                    </picture>
+
                     <div class="form__excursion-info">
                         <strong>Александр Иванов</strong>
                         <span>Инженер</span>
@@ -825,19 +847,17 @@
                     <h2>Бесплатная экскурсия по нашим объектам</h2>
                     <p>Запишитесь на просмотр готовых домов — оцените качество стройки,<br> материалы и получите консультацию по участку и ипотеке</p>
                     <form action="" class="flex">
-                        <!-- <div class="flex"> -->
-                            <label class="flex">
-                                <span>Как к вам обращаться?</span>
-                                <input type="text" placeholder="Имя">
-                            </label>
-    
-                            <label class="flex">
-                                <span>Ваш номер телефона?</span>
-                                <input type="tel" placeholder="+7 (978) 999-99-99">
-                            </label>
+                        <label class="flex">
+                            <span>Как к вам обращаться?</span>
+                            <input type="text" placeholder="Имя">
+                        </label>
 
-                            <button class="button">Получить</button>
-                        <!-- </div> -->
+                        <label class="flex">
+                            <span>Ваш номер телефона?</span>
+                            <input type="tel" placeholder="+7 (978) 999-99-99">
+                        </label>
+
+                        <button class="button">Получить</button>
 
                         <label class="form__policy flex">
                             <label class="check-label">
@@ -930,7 +950,19 @@
         <section class="form__price">
             <div class="container">
                 <div class="form__price-inner">
-                    <img src="../images/form__price.png" alt="">
+                    <!-- <img src="../images/form__price.png" alt=""> -->
+
+                    <picture>
+
+                        <source media="(max-width: 640px)" 
+                                srcset="../images/form__price-adaptive.png">
+                        <source media="(min-width: 641px)" 
+                                srcset="../images/form__price.png">
+                        <img class="offer__bg" 
+                             src="../images/form__price.png" 
+                             alt="">
+                    </picture>
+
                     <h2>Воплотим вашу мечту в реальность</h2>
                     <p>Укажите, сколько вы готовы вложить,<br> а мы покажем вам, какой дом можем предложить</p>
                     
@@ -1127,6 +1159,8 @@
         
                                     <p>Я согласен на <a href="/policy" target="_blank">обработку персональных данных</a></p>
                                 </label>
+                                <button class="button act-light">Отправить</button>
+
                             </form>
                         </div>
 
