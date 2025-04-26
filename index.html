@@ -8,11 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-
-
-    <main class="main">
-        
-        <section class="offer">
             <header class="header">
                 <div class="container">
             
@@ -52,6 +47,8 @@
                                     <span>+7 (978) 999-03-02</span>
                                 </a>
                             </div>
+            
+                            <button class="button popup-callme-btn adaptive">Консультация</button>
                 
                         </div>
                 
@@ -80,6 +77,25 @@
                                 </ul>
                             </nav>
                             <button class="button popup-callme-btn">Получить консультацию</button>
+                        </div>
+            
+                        <div class="header__bottom-adaptive flex">
+                            <div class="header__contacts flex">
+                                <span>Пн-Пт: с 9:00 до 18:00</span>
+                                <a href="tel:+79789990302" class="flex">
+                                    <img src="../../images/icons/icon-phone.svg" alt="">
+                                    <span>+7 (978) 999-03-02</span>
+                                </a>
+                            </div>
+            
+                            <div class="header__burger-menu flex">
+                                <div class="burger_menu" id="burger_menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
             
@@ -115,7 +131,26 @@
                     </div>
                 </div>
             </header>
-            <img src="../images/offer-bg.webp" alt="">
+
+
+    <main class="main">
+        
+        <section class="offer">
+        
+
+
+            <!-- <img src="../images/offer-bg.webp" alt=""> -->
+
+            <picture>
+                <source media="(max-width: 640px)" 
+                        srcset="../images/offer-bg-adaptive.png">
+                <source media="(min-width: 641px)" 
+                        srcset="../images/offer-bg.webp">
+                <img class="offer__bg" 
+                     src="../images/offer-bg.webp" 
+                     alt="">
+            </picture>
+
             <div class="container">
                 <div class="offer__inner">
                     <h1>Готовые дома<br>
@@ -1274,6 +1309,14 @@
                                 <a href="">
                                     <img src="../../images/icons/icon-vk-light.svg" alt="">
                                 </a>
+                            </div>
+        
+                            <div class="adaptive">
+                                <strong>Крымская строительня компания «Крым Дом»</strong>
+                                <p>ИНН: <strong>1234567890</strong></p>
+                                <p>ОГРН: <strong>1234567890987</strong></p>
+                                <a href="">Политика конфиденциальности</a>
+                                <a href="">Пользовательское соглашение</a>
                             </div>
                         </div>
                     </div>

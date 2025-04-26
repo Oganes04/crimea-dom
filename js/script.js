@@ -295,3 +295,12 @@ $(window).on('scroll', function(e) {
 });
 
 
+
+
+//========================== Функционал бургер меню ====================
+
+$("#burger_menu").click(function() {
+  $(this).toggleClass('open');
+  $("#catalogContentAdaptive").toggleClass("open");
+  $("html").toggleClass("hidden");
+});
