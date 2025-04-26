@@ -3905,6 +3905,11 @@ input:not([type=range])::placeholder {
 
   .form__mortgage form > label {
     width: 100%;
+    gap: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .form__mortgage form > label span {
+    font-size: clamp(3.333px, 0.5208333333vw, 10px);
   }
 
   .form__mortgage form input {
@@ -4403,6 +4408,10 @@ input:not([type=range])::placeholder {
     margin-top: clamp(5.3328px, 0.8333333333vw, 16px);
   }
 
+  .contacts__inner-form form .check-label input {
+    width: fit-content !important;
+  }
+
   .contacts__inner-form label.flex {
     width: 100%;
     gap: clamp(2.6664px, 0.4166666667vw, 8px);
@@ -4772,6 +4781,14 @@ input:not([type=range])::placeholder {
 
   .form__mortgage ul li img {
     height: clamp(15.5895px, 4.87171875vw, 31.179px);
+  }
+
+  .form__mortgage form > label {
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .form__mortgage form > label span {
+    font-size: clamp(8.205px, 2.5640625vw, 16.41px);
   }
 
   .form__mortgage-partners {
