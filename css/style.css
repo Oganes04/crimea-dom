@@ -3995,6 +3995,7 @@ input:not([type=range])::placeholder {
 
   .round-btn span {
     font-size: clamp(3.333px, 0.5208333333vw, 10px);
+    font-weight: 500;
   }
 
   .offer {
@@ -4716,6 +4717,7 @@ input:not([type=range])::placeholder {
 
   .slider .row span {
     font-size: clamp(4.6662px, 0.7291666667vw, 14px);
+    font-weight: 400;
   }
 
   .slider .row .line {
@@ -4732,6 +4734,7 @@ input:not([type=range])::placeholder {
 
   .slider .row .line strong {
     font-size: clamp(4.6662px, 0.7291666667vw, 14px);
+    font-weight: 500;
   }
 
   .faq {
