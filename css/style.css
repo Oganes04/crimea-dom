@@ -3797,6 +3797,15 @@ input:not([type=range])::placeholder {
   .select select {
     font-size: clamp(5.3328px, 0.8333333333vw, 16px);
     text-align: center;
+    -webkit-appearance: none;
+    /* Убираем стандартный стиль iOS */
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+    /* Чтобы текст не наезжал на стрелку */
   }
 
   .form__policy p {
