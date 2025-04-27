@@ -207,6 +207,7 @@
                     <h1>Готовые дома<br>
                         по цене квартир в Крыму</h1>
                     <h2>от 4.2 млн ₽ за 60 дней с гарантией до 10 лет</h2>
+                    <h2 class="mobile">от 4.2 млн ₽ за 60 дней</h2>
 
                     <ul class="flex">
                         <li class="flex">
@@ -228,7 +229,7 @@
 
                     <div class="offer__btns flex">
                         <button class="button act-dark popup-callme-btn">Получить расчет стоимости</button>
-                        <button class="button act-light popup-callme-btn">Посмотреть проекты</button>
+                        <a href="#catalog" class="button act-light">Посмотреть проекты</a>
                     </div>
 
                     <div class="round-btn flex">
@@ -428,8 +429,8 @@
             <div class="container">
                 <div class="catalog__form-inner">
                     <h2>
-                        Скачайте каталог с детальной<br>
-                         информацией об объектах,<br>
+                        Скачайте каталог <br class="mobile"> с детальной<br>
+                         информацией <br class="mobile">  об объектах,<br>
                         которые можно приобрести в 2025 г.
                     </h2>
 
@@ -1415,21 +1416,23 @@
                     </label>
         
                     <button class="button act-light">Получить</button>
+        
+                    <label class="form__policy flex">
+                        <label class="check-label">
+                            <span class="options__desc"></span>
+                            <input type="checkbox" name="checkbox">
+                            <span class="fakecheck">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="18px" height="18px" id="checkmark">
+                                    <polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" 5,12 9,16 18,8"></polyline>
+                                </svg>
+                            </span>
+                        </label> 
+            
+                        <p>Я согласен на <a href="/policy" target="_blank">обработку персональных данных</a></p>
+                    </label>
                 </div>
         
-                <label class="form__policy flex">
-                    <label class="check-label">
-                        <span class="options__desc"></span>
-                        <input type="checkbox" name="checkbox">
-                        <span class="fakecheck">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="18px" height="18px" id="checkmark">
-                                <polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" 5,12 9,16 18,8"></polyline>
-                            </svg>
-                        </span>
-                    </label> 
-        
-                    <p>Я согласен на <a href="/policy" target="_blank">обработку персональных данных</a></p>
-                </label>
+                
             </form>
         </section>
 

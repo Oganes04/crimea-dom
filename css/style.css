@@ -492,6 +492,7 @@ input:not([type=range])::placeholder {
   transform: translate(-50%, -50%);
   background-color: #fff;
   z-index: 99999;
+  overflow: hidden;
   display: none;
 }
 
@@ -535,6 +536,7 @@ input:not([type=range])::placeholder {
   align-items: flex-end;
   gap: clamp(10.6656px, 1.6666666667vw, 32px);
   margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  flex-wrap: wrap;
 }
 
 .popup form > .flex > label {
@@ -557,6 +559,14 @@ input:not([type=range])::placeholder {
 .popup form .form__policy {
   gap: clamp(2.6664px, 0.4166666667vw, 8px);
   align-items: center;
+  width: 100%;
+}
+
+.popup form .form__policy.flex {
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: clamp(2.6664px, 0.4166666667vw, 8px);
 }
 
 .popup form .form__policy p {
@@ -1152,6 +1162,10 @@ input:not([type=range])::placeholder {
   margin-bottom: clamp(21.3312px, 3.3333333333vw, 64px);
 }
 
+.offer__inner h2.mobile {
+  display: none;
+}
+
 .offer__inner ul {
   gap: clamp(10.6656px, 1.6666666667vw, 32px);
   justify-content: start;
@@ -1345,6 +1359,10 @@ input:not([type=range])::placeholder {
   position: relative;
   z-index: 1;
   padding-top: clamp(31.3302px, 4.8958333333vw, 94px);
+}
+
+.catalog__form h2 br.mobile {
+  display: none;
 }
 
 .catalog__form form {
@@ -2640,6 +2658,10 @@ input:not([type=range])::placeholder {
     gap: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
+  .popup form .form__policy.flex {
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
   .header__burger-menu {
     width: clamp(32.82px, 10.25625vw, 65.64px);
   }
@@ -3736,6 +3758,8 @@ input:not([type=range])::placeholder {
     margin-bottom: clamp(15.9984px, 2.5vw, 48px);
   }
 
+  /* ========================== Cтили для popup окон ==================== */
+
   .container {
     max-width: 576px;
     width: 100%;
@@ -3751,6 +3775,11 @@ input:not([type=range])::placeholder {
   h2.section__header {
     margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
     width: clamp(89.3244px, 13.9583333333vw, 268px);
+  }
+
+  h2.section__header::before {
+    height: 150px;
+    margin: -150px 0 0;
   }
 
   input:not([type=range]) {
@@ -3944,7 +3973,28 @@ input:not([type=range])::placeholder {
   }
 
   .round-btn {
-    display: none;
+    width: clamp(30.6636px, 4.7916666667vw, 92px);
+    height: clamp(30.6636px, 4.7916666667vw, 92px);
+    right: clamp(11.9988px, 1.875vw, 36px);
+    top: clamp(49.995px, 7.8125vw, 150px);
+  }
+
+  .round-btn::before {
+    width: clamp(33.33px, 5.2083333333vw, 100px);
+    height: clamp(33.33px, 5.2083333333vw, 100px);
+    border: 3px solid #002548;
+  }
+
+  .round-btn p {
+    gap: clamp(0.6666px, 0.1041666667vw, 2px);
+  }
+
+  .round-btn strong {
+    font-size: clamp(5.9994px, 0.9375vw, 18px);
+  }
+
+  .round-btn span {
+    font-size: clamp(3.333px, 0.5208333333vw, 10px);
   }
 
   .offer {
@@ -3972,6 +4022,11 @@ input:not([type=range])::placeholder {
   .offer__inner h2 {
     font-size: clamp(5.3328px, 0.8333333333vw, 16px);
     margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+    display: none;
+  }
+
+  .offer__inner h2.mobile {
+    display: block;
   }
 
   .offer__inner ul {
@@ -4043,6 +4098,11 @@ input:not([type=range])::placeholder {
     width: 100%;
   }
 
+  .offer__btns a {
+    width: 100%;
+    text-align: center;
+  }
+
   .catalog ul {
     grid-template-columns: 1fr;
     gap: clamp(13.332px, 2.0833333333vw, 40px);
@@ -4094,9 +4154,27 @@ input:not([type=range])::placeholder {
     margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
   }
 
+  .catalog__form-inner .round-btn {
+    top: clamp(7.9992px, 1.25vw, 24px);
+    right: clamp(13.332px, 2.0833333333vw, 40px);
+  }
+
+  .catalog__form-inner .round-btn strong {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
   .catalog__form h2 {
     padding-top: 0;
     margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+    line-height: 140%;
+  }
+
+  .catalog__form h2 br {
+    display: none;
+  }
+
+  .catalog__form h2 br.mobile {
+    display: block;
   }
 
   .catalog__form form {
@@ -4193,6 +4271,18 @@ input:not([type=range])::placeholder {
   .advantages__block-dot-info img {
     width: clamp(27.3306px, 4.2708333333vw, 82px);
     height: clamp(27.3306px, 4.2708333333vw, 82px);
+  }
+
+  .form__mortgage .round-btn {
+    top: clamp(13.332px, 2.0833333333vw, 40px);
+    right: clamp(5.3328px, 0.8333333333vw, 16px);
+    width: clamp(37.6629px, 5.8854166667vw, 113px);
+    height: clamp(37.6629px, 5.8854166667vw, 113px);
+  }
+
+  .form__mortgage .round-btn::before {
+    width: clamp(40.9959px, 6.40625vw, 123px);
+    height: clamp(40.9959px, 6.40625vw, 123px);
   }
 
   .form__mortgage-inner {
@@ -4349,6 +4439,21 @@ input:not([type=range])::placeholder {
     height: clamp(274.047px, 85.6396875vw, 548.094px) !important;
     border-radius: clamp(3.333px, 0.5208333333vw, 10px);
     border: 1px solid #3F3D4C;
+  }
+
+  .projects .swiper-slide .round-btn {
+    width: clamp(14.6652px, 2.2916666667vw, 44px);
+    height: clamp(14.6652px, 2.2916666667vw, 44px);
+  }
+
+  .projects .swiper-slide .round-btn::before {
+    width: clamp(15.9984px, 2.5vw, 48px);
+    height: clamp(15.9984px, 2.5vw, 48px);
+    border: 1.5px solid #002548;
+  }
+
+  .projects .swiper-slide .round-btn p strong {
+    font-size: clamp(2.9997px, 0.46875vw, 9px);
   }
 
   .form__excursion .container {
@@ -4606,7 +4711,7 @@ input:not([type=range])::placeholder {
 
   .slider .row {
     margin-top: clamp(5.3328px, 0.8333333333vw, 16px);
-    gap: clamp(2.6664px, 0.4166666667vw, 8px);
+    gap: clamp(1.9998px, 0.3125vw, 6px);
   }
 
   .slider .row span {
@@ -4614,7 +4719,7 @@ input:not([type=range])::placeholder {
   }
 
   .slider .row .line {
-    gap: clamp(2.3331px, 0.3645833333vw, 7px);
+    gap: clamp(1.6665px, 0.2604166667vw, 5px);
   }
 
   .slider .row .line p {
@@ -4946,6 +5051,63 @@ input:not([type=range])::placeholder {
     align-items: center;
     gap: clamp(2.6664px, 0.4166666667vw, 8px);
   }
+
+  .popup {
+    margin: 0;
+    padding: clamp(5.3328px, 0.8333333333vw, 16px) clamp(5.3328px, 0.8333333333vw, 16px) clamp(7.9992px, 1.25vw, 24px) clamp(5.3328px, 0.8333333333vw, 16px);
+    margin: 0 auto;
+    width: clamp(123.321px, 19.2708333333vw, 370px);
+  }
+
+  .popup_close {
+    width: clamp(13.332px, 2.0833333333vw, 40px);
+    height: clamp(13.332px, 2.0833333333vw, 40px);
+    top: clamp(5.3328px, 0.8333333333vw, 16px);
+    right: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .popup > img {
+    width: clamp(70.6596px, 11.0416666667vw, 212px);
+  }
+
+  .popup h2 {
+    font-size: clamp(7.9992px, 1.25vw, 24px);
+    margin-bottom: clamp(2.6664px, 0.4166666667vw, 8px);
+    width: clamp(57.9942px, 9.0625vw, 174px);
+  }
+
+  .popup > p {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    margin-bottom: clamp(7.9992px, 1.25vw, 24px);
+    width: clamp(89.991px, 14.0625vw, 270px);
+  }
+
+  .popup form > .flex {
+    flex-direction: column;
+    gap: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .popup form > .flex > label {
+    width: 100%;
+    gap: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .popup form > .flex > label span {
+    font-size: clamp(3.333px, 0.5208333333vw, 10px);
+  }
+
+  .popup form > .flex > label input:not([type=checkbox]) {
+    width: 100%;
+  }
+
+  .popup form .form__policy {
+    margin-top: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .popup form button {
+    width: 100%;
+    order: 1;
+  }
 }
 
 @media only screen and (hover: hover) and (max-width: 640px) {
@@ -5143,6 +5305,42 @@ input:not([type=range])::placeholder {
     font-size: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
+  .round-btn {
+    width: clamp(75.486px, 23.589375vw, 150.972px);
+  }
+
+  .round-btn {
+    height: clamp(75.486px, 23.589375vw, 150.972px);
+  }
+
+  .round-btn {
+    right: clamp(29.538px, 9.230625vw, 59.076px);
+  }
+
+  .round-btn {
+    top: clamp(123.075px, 38.4609375vw, 246.15px);
+  }
+
+  .round-btn::before {
+    width: clamp(82.05px, 25.640625vw, 164.1px);
+  }
+
+  .round-btn::before {
+    height: clamp(82.05px, 25.640625vw, 164.1px);
+  }
+
+  .round-btn p {
+    gap: clamp(1.641px, 0.5128125vw, 3.282px);
+  }
+
+  .round-btn strong {
+    font-size: clamp(14.769px, 4.6153125vw, 29.538px);
+  }
+
+  .round-btn span {
+    font-size: clamp(8.205px, 2.5640625vw, 16.41px);
+  }
+
   .offer {
     padding-top: clamp(106.665px, 33.3328125vw, 213.33px);
   }
@@ -5303,6 +5501,18 @@ input:not([type=range])::placeholder {
     margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
+  .catalog__form-inner .round-btn {
+    top: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .catalog__form-inner .round-btn {
+    right: clamp(32.82px, 10.25625vw, 65.64px);
+  }
+
+  .catalog__form-inner .round-btn strong {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
   .catalog__form h2 {
     margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
   }
@@ -5381,6 +5591,30 @@ input:not([type=range])::placeholder {
 
   .advantages__block-dot-info img {
     height: clamp(67.281px, 21.0253125vw, 134.562px);
+  }
+
+  .form__mortgage .round-btn {
+    top: clamp(32.82px, 10.25625vw, 65.64px);
+  }
+
+  .form__mortgage .round-btn {
+    right: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .form__mortgage .round-btn {
+    width: clamp(92.7165px, 28.97390625vw, 185.433px);
+  }
+
+  .form__mortgage .round-btn {
+    height: clamp(92.7165px, 28.97390625vw, 185.433px);
+  }
+
+  .form__mortgage .round-btn::before {
+    width: clamp(100.9215px, 31.53796875vw, 201.843px);
+  }
+
+  .form__mortgage .round-btn::before {
+    height: clamp(100.9215px, 31.53796875vw, 201.843px);
   }
 
   .form__mortgage-inner {
@@ -5527,6 +5761,26 @@ input:not([type=range])::placeholder {
 
   .projects .swiper-slide {
     border-radius: clamp(8.205px, 2.5640625vw, 16.41px);
+  }
+
+  .projects .swiper-slide .round-btn {
+    width: clamp(36.102px, 11.281875vw, 72.204px);
+  }
+
+  .projects .swiper-slide .round-btn {
+    height: clamp(36.102px, 11.281875vw, 72.204px);
+  }
+
+  .projects .swiper-slide .round-btn::before {
+    width: clamp(39.384px, 12.3075vw, 78.768px);
+  }
+
+  .projects .swiper-slide .round-btn::before {
+    height: clamp(39.384px, 12.3075vw, 78.768px);
+  }
+
+  .projects .swiper-slide .round-btn p strong {
+    font-size: clamp(7.3845px, 2.30765625vw, 14.769px);
   }
 
   .form__excursion-inner {
@@ -5774,7 +6028,7 @@ input:not([type=range])::placeholder {
   }
 
   .slider .row {
-    gap: clamp(6.564px, 2.05125vw, 13.128px);
+    gap: clamp(4.923px, 1.5384375vw, 9.846px);
   }
 
   .slider .row span {
@@ -5782,7 +6036,7 @@ input:not([type=range])::placeholder {
   }
 
   .slider .row .line {
-    gap: clamp(5.7435px, 1.79484375vw, 11.487px);
+    gap: clamp(4.1025px, 1.28203125vw, 8.205px);
   }
 
   .slider .row .line p {
@@ -6075,6 +6329,74 @@ input:not([type=range])::placeholder {
 
   .footer__bottom-inner {
     gap: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .popup {
+    padding: clamp(13.128px, 4.1025vw, 26.256px) clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px) clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .popup {
+    width: clamp(303.585px, 94.8703125vw, 607.17px);
+  }
+
+  .popup_close {
+    width: clamp(32.82px, 10.25625vw, 65.64px);
+  }
+
+  .popup_close {
+    height: clamp(32.82px, 10.25625vw, 65.64px);
+  }
+
+  .popup_close {
+    top: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .popup_close {
+    right: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .popup > img {
+    width: clamp(173.946px, 54.358125vw, 347.892px);
+  }
+
+  .popup h2 {
+    font-size: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .popup h2 {
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .popup h2 {
+    width: clamp(142.767px, 44.6146875vw, 285.534px);
+  }
+
+  .popup > p {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .popup > p {
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .popup > p {
+    width: clamp(221.535px, 69.2296875vw, 443.07px);
+  }
+
+  .popup form > .flex {
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .popup form > .flex > label {
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .popup form > .flex > label span {
+    font-size: clamp(8.205px, 2.5640625vw, 16.41px);
+  }
+
+  .popup form .form__policy {
+    margin-top: clamp(6.564px, 2.05125vw, 13.128px);
   }
 }
 
