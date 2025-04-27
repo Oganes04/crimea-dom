@@ -2517,6 +2517,10 @@ input:not([type=range])::placeholder {
   height: clamp(21.3312px, 3.3333333333vw, 64px);
 }
 
+.slider__animation {
+  display: none;
+}
+
 @media only screen and (max-width: 640px) {
   section {
     margin-bottom: clamp(105.024px, 32.82vw, 210.048px);
@@ -4379,6 +4383,10 @@ input:not([type=range])::placeholder {
     width: 100%;
   }
 
+  .projects h2.section__header {
+    margin-bottom: 0;
+  }
+
   .projects .projectsSwiper {
     overflow: hidden !important;
     border-radius: clamp(3.333px, 0.5208333333vw, 10px);
@@ -4549,6 +4557,10 @@ input:not([type=range])::placeholder {
   .form__excursion-info span {
     font-size: clamp(3.333px, 0.5208333333vw, 10px);
     display: block;
+  }
+
+  .steps h2.section__header {
+    margin-bottom: 0;
   }
 
   .steps__inner::after {
@@ -5121,6 +5133,67 @@ input:not([type=range])::placeholder {
     width: 100%;
     order: 1;
   }
+
+  .slider__animation {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+    height: clamp(7.9992px, 1.25vw, 24px);
+    width: clamp(15.3318px, 2.3958333333vw, 46px);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slider__animation-slides {
+    position: absolute;
+    left: 0;
+    height: clamp(7.9992px, 1.25vw, 24px);
+    width: clamp(35.9964px, 5.625vw, 108px);
+    overflow: hidden;
+    animation: sliderAnimationSlides 1.2s linear infinite;
+  }
+
+  .slider__animation-slides img {
+    width: clamp(35.9964px, 5.625vw, 108px);
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slider__animation-hand {
+    position: absolute;
+    width: clamp(7.9992px, 1.25vw, 24px);
+    height: clamp(7.9992px, 1.25vw, 24px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    animation: sliderAnimationHand 0.6s infinite alternate;
+  }
+
+@keyframes sliderAnimationSlides {
+    50% {
+      transform: translateX(-25%);
+    }
+
+    100% {
+      transform: translateX(-25%);
+    }
+}
+
+@keyframes sliderAnimationHand {
+    0% {
+      left: 60%;
+    }
+
+    100% {
+      left: 40%;
+      animation-duration: 0.3s;
+    }
+}
 }
 
 @media only screen and (hover: hover) and (max-width: 640px) {
@@ -6410,6 +6483,38 @@ input:not([type=range])::placeholder {
 
   .popup form .form__policy {
     margin-top: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .slider__animation {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .slider__animation {
+    height: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .slider__animation {
+    width: clamp(37.743px, 11.7946875vw, 75.486px);
+  }
+
+  .slider__animation-slides {
+    height: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .slider__animation-slides {
+    width: clamp(88.614px, 27.691875vw, 177.228px);
+  }
+
+  .slider__animation-slides img {
+    width: clamp(88.614px, 27.691875vw, 177.228px);
+  }
+
+  .slider__animation-hand {
+    width: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .slider__animation-hand {
+    height: clamp(19.692px, 6.15375vw, 39.384px);
   }
 }
 
