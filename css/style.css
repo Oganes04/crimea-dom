@@ -3784,6 +3784,17 @@ input:not([type=range])::placeholder {
     border-radius: clamp(2.3331px, 0.3645833333vw, 7px);
   }
 
+  .overlay-header {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3960784314);
+    z-index: 99;
+    display: none;
+  }
+
   .header {
     position: fixed;
     top: 0;
@@ -3850,16 +3861,6 @@ input:not([type=range])::placeholder {
   .header__contacts a span {
     margin-left: 0;
     font-size: clamp(3.9996px, 0.625vw, 12px);
-  }
-
-  .header .overlay-header {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.3960784314);
-    display: none;
   }
 
   .header__adaptive-menu {
