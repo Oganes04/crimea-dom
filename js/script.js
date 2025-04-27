@@ -300,7 +300,25 @@ $(window).on('scroll', function(e) {
 //========================== Функционал бургер меню ====================
 
 $("#burger_menu").click(function() {
-  $(this).toggleClass('open');
-  $("#catalogContentAdaptive").toggleClass("open");
+  // $(this).toggleClass('open');
+  $(".header__adaptive-menu").toggleClass("open");
   $("html").toggleClass("hidden");
+});
+
+$(document).mouseup(function(e) {
+  var container = $(".header__adaptive-menu");
+  var burger = $("#burger_menu");
+  
+  if (container.hasClass("open") 
+      && !container.is(e.target) 
+      && container.has(e.target).length === 0
+      && !burger.is(e.target) 
+      && burger.has(e.target).length === 0) {
+    container.removeClass("open");
+    $("html").removeClass("hidden");
+  }
+});
+
+$(document).on('click', '.header__adaptive-menu nav ul li', function(e) {
+  $('.header__adaptive-menu').removeClass('open');
 });

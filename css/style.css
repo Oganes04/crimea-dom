@@ -651,6 +651,10 @@ input:not([type=range])::placeholder {
   background: linear-gradient(180deg, rgba(0, 20, 39, 0.8) 0%, rgba(29, 43, 57, 0.6) 61.68%, rgba(44, 51, 57, 0.4) 86.8%, rgba(58, 58, 58, 0) 100%);
 }
 
+.header__adaptive-menu {
+  display: none;
+}
+
 .header__top {
   padding: clamp(5.3328px, 0.8333333333vw, 16px) clamp(0px, 0vw, 0px) clamp(5.3328px, 0.8333333333vw, 16px) clamp(0px, 0vw, 0px);
   border-bottom: 1px solid #FFFFFF;
@@ -3848,6 +3852,86 @@ input:not([type=range])::placeholder {
     font-size: clamp(3.9996px, 0.625vw, 12px);
   }
 
+  .header__adaptive-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: clamp(7.9992px, 1.25vw, 24px) clamp(5.3328px, 0.8333333333vw, 16px) clamp(7.9992px, 1.25vw, 24px) clamp(5.3328px, 0.8333333333vw, 16px);
+    background-color: #fff;
+    border-radius: clamp(3.333px, 0.5208333333vw, 10px) clamp(0px, 0vw, 0px) clamp(0px, 0vw, 0px) clamp(3.333px, 0.5208333333vw, 10px);
+    z-index: 100;
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__adaptive-menu.open {
+    transform: translateX(0);
+  }
+
+  .header__adaptive-menu > .row {
+    padding-top: clamp(7.9992px, 1.25vw, 24px);
+    padding-bottom: clamp(7.9992px, 1.25vw, 24px);
+    gap: clamp(13.9986px, 2.1875vw, 42px);
+    border-bottom: 1px solid #2C466B;
+  }
+
+  .header__adaptive-menu .header__logo {
+    padding-bottom: clamp(7.9992px, 1.25vw, 24px);
+    border-bottom: 1px solid #2C466B;
+    text-align: center;
+  }
+
+  .header__adaptive-menu .header__logo a {
+    width: clamp(53.6613px, 8.3854166667vw, 161px);
+    height: clamp(16.9983px, 2.65625vw, 51px);
+  }
+
+  .header__adaptive-menu .header__contacts {
+    color: #3F3D4C;
+  }
+
+  .header__adaptive-menu .header__contacts a,
+  .header__adaptive-menu .header__contacts a span {
+    color: #3F3D4C;
+  }
+
+  .header__adaptive-menu .header__social-icons {
+    gap: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .header__adaptive-menu nav {
+    padding: clamp(7.9992px, 1.25vw, 24px) clamp(0px, 0vw, 0px) clamp(7.9992px, 1.25vw, 24px) clamp(0px, 0vw, 0px);
+    border-bottom: 1px solid #2C466B;
+    margin-bottom: clamp(7.9992px, 1.25vw, 24px);
+  }
+
+  .header__adaptive-menu ul {
+    flex-direction: column;
+    gap: clamp(5.3328px, 0.8333333333vw, 16px);
+    align-items: flex-start;
+  }
+
+  .header__adaptive-menu ul a {
+    font-size: clamp(5.3328px, 0.8333333333vw, 16px);
+    font-weight: 500;
+    color: #3F3D4C;
+  }
+
+  .header__adaptive-menu ul a.underline {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .header__adaptive-menu button {
+    display: block;
+    margin: 0 auto;
+  }
+
   .round-btn {
     display: none;
   }
@@ -4994,6 +5078,58 @@ input:not([type=range])::placeholder {
 
   .header__contacts a span {
     font-size: clamp(9.846px, 3.076875vw, 19.692px);
+  }
+
+  .header__adaptive-menu {
+    padding: clamp(19.692px, 6.15375vw, 39.384px) clamp(13.128px, 4.1025vw, 26.256px) clamp(19.692px, 6.15375vw, 39.384px) clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .header__adaptive-menu {
+    border-radius: clamp(8.205px, 2.5640625vw, 16.41px) clamp(0px, 0vw, 0px) clamp(0px, 0vw, 0px) clamp(8.205px, 2.5640625vw, 16.41px);
+  }
+
+  .header__adaptive-menu > .row {
+    padding-top: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .header__adaptive-menu > .row {
+    padding-bottom: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .header__adaptive-menu > .row {
+    gap: clamp(34.461px, 10.7690625vw, 68.922px);
+  }
+
+  .header__adaptive-menu .header__logo {
+    padding-bottom: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .header__adaptive-menu .header__logo a {
+    width: clamp(132.1005px, 41.28140625vw, 264.201px);
+  }
+
+  .header__adaptive-menu .header__logo a {
+    height: clamp(41.8455px, 13.07671875vw, 83.691px);
+  }
+
+  .header__adaptive-menu .header__social-icons {
+    gap: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .header__adaptive-menu nav {
+    padding: clamp(19.692px, 6.15375vw, 39.384px) clamp(0px, 0vw, 0px) clamp(19.692px, 6.15375vw, 39.384px) clamp(0px, 0vw, 0px);
+  }
+
+  .header__adaptive-menu nav {
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .header__adaptive-menu ul {
+    gap: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .header__adaptive-menu ul a {
+    font-size: clamp(13.128px, 4.1025vw, 26.256px);
   }
 
   .offer {
