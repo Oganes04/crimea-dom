@@ -1581,6 +1581,11 @@ input:not([type=range])::placeholder {
   height: clamp(244.3089px, 38.1770833333vw, 733px);
 }
 
+.form__mortgage > picture img {
+  width: 100%;
+  height: 100%;
+}
+
 .form__mortgage-inner {
   position: relative;
   padding-top: clamp(49.995px, 7.8125vw, 150px);
@@ -3975,9 +3980,8 @@ input:not([type=range])::placeholder {
     color: #3F3D4C;
   }
 
-  .header__adaptive-menu ul a.underline {
+  .header__adaptive-menu ul a:active {
     text-decoration: underline;
-    font-weight: 600;
   }
 
   .header__adaptive-menu button {
@@ -4224,6 +4228,10 @@ input:not([type=range])::placeholder {
     gap: clamp(2.6664px, 0.4166666667vw, 8px);
     margin-bottom: 0;
     margin-top: clamp(5.3328px, 0.8333333333vw, 16px);
+  }
+
+  .catalog__form form .form__policy.flex input {
+    width: fit-content;
   }
 
   .advantages__block {
@@ -5194,6 +5202,10 @@ input:not([type=range])::placeholder {
       animation-duration: 0.3s;
     }
 }
+
+  section {
+    overflow-x: clip;
+  }
 }
 
 @media only screen and (hover: hover) and (max-width: 640px) {

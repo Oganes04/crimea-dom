@@ -303,7 +303,7 @@ $("#burger_menu").click(function() {
   // $(this).toggleClass('open');
   $('.overlay-header').fadeIn();
   $(".header__adaptive-menu").toggleClass("open");
-  // $("html").toggleClass("hidden");
+  $('html').css('overflow', 'hidden');
 });
 
 $(document).mouseup(function(e) {
@@ -316,7 +316,8 @@ $(document).mouseup(function(e) {
       && !burger.is(e.target) 
       && burger.has(e.target).length === 0) {
     container.removeClass("open");
-    // $("html").removeClass("hidden");
+   
+    $('html').css('overflow-y', 'auto');
     $('.overlay-header').fadeOut();
   }
 });
@@ -324,4 +325,5 @@ $(document).mouseup(function(e) {
 $(document).on('click', '.header__adaptive-menu nav ul li', function(e) {
   $('.header__adaptive-menu').removeClass('open');
   $('.overlay-header').fadeOut();
+  $('html').css('overflow-y', 'auto');
 });
