@@ -4259,6 +4259,7 @@ input:not([type=range])::placeholder {
 
   .advantages__block-dot-info {
     padding: clamp(1.3332px, 0.2083333333vw, 4px) clamp(1.3332px, 0.2083333333vw, 4px) clamp(1.3332px, 0.2083333333vw, 4px) clamp(1.3332px, 0.2083333333vw, 4px);
+    width: max-content;
   }
 
   .advantages__block-dot-info .flex strong {
