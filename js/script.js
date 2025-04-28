@@ -256,6 +256,16 @@ $('.popup-callme-btn').click(function() {
   openPopup($('.popup-callme'));
 });
 
+$('.popup-catalog-btn').click(function() {
+  openPopup($('.popup-catalog'));
+});
+
+$('.popup-project-btn').click(function() {
+  let projectTitle = $(this).closest('article').find('h3').text();
+  $('.popup-project h2 span').text(projectTitle);
+  openPopup($('.popup-project'));
+});
+
 
 $(document).ready(function() {
   $(document).mouseup(function(e) {
@@ -276,6 +286,27 @@ $(document).ready(function() {
     }
   });
 });
+
+$('form button').click(function(e) {
+  e.preventDefault();
+});
+
+
+$('.popup-catalog form button').click(function() {
+  openPopup($('.popup-thanks-catalog'));
+});
+
+$('.popup-project form button').click(function() {
+  openPopup($('.popup-thanks'));
+});
+
+$('.popup-callme form button').click(function() {
+  openPopup($('.popup-thanks'));
+});
+
+
+
+
 
 
 //========================== Stycky Header ====================

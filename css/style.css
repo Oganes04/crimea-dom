@@ -586,6 +586,65 @@ input:not([type=range])::placeholder {
   background-color: #14ABB7;
 }
 
+.popup-thanks {
+  display: block;
+  text-align: center;
+  width: clamp(215.6451px, 33.6979166667vw, 647px);
+  display: none;
+}
+
+.popup-thanks h2 {
+  margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  width: 100% !important;
+}
+
+.popup-thanks p {
+  margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+}
+
+.popup-thanks a {
+  width: fit-content;
+}
+
+.popup-thanks a.link {
+  border: 2px solid #003A70;
+  display: inline-block;
+}
+
+.popup-thanks a.link:active {
+  border-color: transparent;
+}
+
+.popup-thanks-catalog {
+  display: block;
+  text-align: center;
+  width: clamp(215.6451px, 33.6979166667vw, 647px);
+  display: none;
+}
+
+.popup-thanks-catalog h2 {
+  margin-bottom: clamp(5.3328px, 0.8333333333vw, 16px);
+  width: 100% !important;
+}
+
+.popup-thanks-catalog p {
+  margin-bottom: clamp(10.6656px, 1.6666666667vw, 32px);
+}
+
+.popup-thanks-catalog a {
+  width: fit-content;
+}
+
+.popup-thanks-catalog a.link {
+  border: 2px solid #003A70;
+  margin-top: clamp(7.9992px, 1.25vw, 24px);
+  display: inline-block;
+}
+
+.popup-thanks-catalog a.link:active {
+  border-color: transparent;
+}
+
 /* ========================== Cтили для бургер меню ==================== */
 
 .header__burger-menu {
@@ -2669,6 +2728,34 @@ input:not([type=range])::placeholder {
 
   .popup form .form__policy.flex {
     gap: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .popup-thanks {
+    width: clamp(530.8635px, 165.89484375vw, 1061.727px);
+  }
+
+  .popup-thanks h2 {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .popup-thanks p {
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
+  }
+
+  .popup-thanks-catalog {
+    width: clamp(530.8635px, 165.89484375vw, 1061.727px);
+  }
+
+  .popup-thanks-catalog h2 {
+    margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
+  }
+
+  .popup-thanks-catalog p {
+    margin-bottom: clamp(26.256px, 8.205vw, 52.512px);
+  }
+
+  .popup-thanks-catalog a.link {
+    margin-top: clamp(19.692px, 6.15375vw, 39.384px);
   }
 
   .header__burger-menu {
@@ -5142,6 +5229,28 @@ input:not([type=range])::placeholder {
     order: 1;
   }
 
+  .popup-thanks h2 {
+    width: 100% !important;
+    margin-bottom: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .popup-thanks p {
+    margin-bottom: clamp(7.9992px, 1.25vw, 24px);
+  }
+
+  .popup-thanks-catalog h2 {
+    width: 100% !important;
+    margin-bottom: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
+  .popup-thanks-catalog p {
+    margin-bottom: clamp(7.9992px, 1.25vw, 24px);
+  }
+
+  .popup-thanks-catalog a.link {
+    margin-top: clamp(2.6664px, 0.4166666667vw, 8px);
+  }
+
   .slider__animation {
     display: flex;
     margin-left: auto;
@@ -6497,6 +6606,26 @@ input:not([type=range])::placeholder {
     margin-top: clamp(6.564px, 2.05125vw, 13.128px);
   }
 
+  .popup-thanks h2 {
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .popup-thanks p {
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .popup-thanks-catalog h2 {
+    margin-bottom: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
+  .popup-thanks-catalog p {
+    margin-bottom: clamp(19.692px, 6.15375vw, 39.384px);
+  }
+
+  .popup-thanks-catalog a.link {
+    margin-top: clamp(6.564px, 2.05125vw, 13.128px);
+  }
+
   .slider__animation {
     margin-bottom: clamp(13.128px, 4.1025vw, 26.256px);
   }
@@ -6541,6 +6670,14 @@ input:not([type=range])::placeholder {
     background: #00315f;
     color: #FFFFFF;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .popup-thanks a.link:hover {
+    border-color: transparent;
+  }
+
+  .popup-thanks-catalog a.link:hover {
+    border-color: transparent;
   }
 
   .header__top button:hover {
